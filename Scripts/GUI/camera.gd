@@ -12,5 +12,5 @@ func _ready():
 	limit_bottom = world_size.y/2
 
 
-func _process(delta):
+func _process(_delta):
 	position = player.position

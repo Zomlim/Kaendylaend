@@ -17,22 +17,20 @@ func get_input():
 	velocity = input_direction * speed
 
 func animate():
-	if Input.is_action_pressed("ui_right"):
-		_animation_player.play("WalkRight")
-	else:
-		_animation_player.stop()
-		
-	if Input.is_action_pressed("ui_left"):
-		_animation_player.play("WalkLeft")
-	else:
-		_animation_player.stop()
-		
-	if Input.is_action_pressed("ui_up"):
-		_animation_player.play("WalkUp")
-	else:
-		_animation_player.stop()
-		
+	# play each animation; to change, the animation gets overridden
+	# elif is required so an animation still plays when walking diagonal (ie two keys pressed simultaneously)
+	# order applies priorities from highest to lowest
 	if Input.is_action_pressed("ui_down"):
 		_animation_player.play("WalkDown")
-	else:
+	elif Input.is_action_pressed("ui_up"):
+		_animation_player.play("WalkUp")	
+	elif Input.is_action_pressed("ui_right"):
+		_animation_player.play("WalkRight")
+	elif Input.is_action_pressed("ui_left"):
+		_animation_player.play("WalkLeft")
+		
+	
+
+	# if no key triggering any animation is pressed, stop the animation
+	if not (Input.is_action_pressed("ui_right") or Input.is_action_pressed("ui_left") or Input.is_action_pressed("ui_up") or Input.is_action_pressed("ui_down")):
 		_animation_player.stop()

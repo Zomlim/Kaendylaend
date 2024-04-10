@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
+
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
 

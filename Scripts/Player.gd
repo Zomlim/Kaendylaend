@@ -1,15 +1,15 @@
 extends CharacterBody2D
 
+class_name Player
+
+@export var inv: Inv
 
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
 
-
-func _physics_process(_delta):
+func _process(_delta):
 	get_input()
 	move_and_slide()
-	
-func _process(_delta):
 	animate()
 
 

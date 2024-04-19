@@ -8,3 +8,8 @@
 - added basic inventory functionality
 	opens on "e"
 - instanced player and sign object
+
+1.1.1
+
+- player can no longer move while inventory is open.
+- inv interface changed

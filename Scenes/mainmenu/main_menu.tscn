@@ -1,0 +1,116 @@
+[gd_scene load_steps=6 format=3 uid="uid://d1cpd0hboyuv4"]
+
+[ext_resource type="Script" path="res://Scenes/mainmenu/main_menu.gd" id="1_dis7o"]
+[ext_resource type="Texture2D" uid="uid://bsnne10xy7pqh" path="res://resources/sprites/tilesets/tilemap-backgrounds_packed.png" id="1_i1n7e"]
+[ext_resource type="PackedScene" uid="uid://vj2ndoii7jbd" path="res://Scenes/optionsmenu/options_menu.tscn" id="3_dvul2"]
+
+[sub_resource type="SystemFont" id="SystemFont_66844"]
+font_names = PackedStringArray("Comic Sans MS")
+
+[sub_resource type="SystemFont" id="SystemFont_7sehm"]
+font_names = PackedStringArray("Comic Sans MS")
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dis7o")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -386.0
+offset_right = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_i1n7e")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 32
+
+[node name="Seperator" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 4
+theme_override_constants/shadow_offset_y = 4
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = SubResource("SystemFont_66844")
+theme_override_font_sizes/font_size = 64
+text = "Kaendyland"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 24
+alignment = 1
+
+[node name="Seperator" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="StartButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(120, 32)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_7sehm")
+theme_override_font_sizes/font_size = 24
+text = "Play"
+
+[node name="Seperator3" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Options" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(120, 32)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_7sehm")
+theme_override_font_sizes/font_size = 24
+text = "Options"
+
+[node name="Seperator2" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="SaveGame" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(120, 32)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_7sehm")
+theme_override_font_sizes/font_size = 24
+text = "Save Game"
+
+[node name="Seperator4" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="QuitGame" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(120, 32)
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_7sehm")
+theme_override_font_sizes/font_size = 24
+text = "Quit Game"
+
+[node name="OptionsMenu" parent="." instance=ExtResource("3_dvul2")]
+visible = false
+layout_mode = 1

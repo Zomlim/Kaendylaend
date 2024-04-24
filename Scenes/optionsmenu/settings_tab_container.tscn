@@ -1,7 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://cphpngyugsac5"]
+[gd_scene load_steps=5 format=3 uid="uid://cphpngyugsac5"]
 
-[sub_resource type="SystemFont" id="SystemFont_og1xe"]
-font_names = PackedStringArray("Comic Sans MS")
+[ext_resource type="FontFile" uid="uid://dc0vefpbebp5q" path="res://resources/fonts/born2bsporty-fs/Born2bSportyFS.otf" id="1_w7ygs"]
+[ext_resource type="PackedScene" uid="uid://cxgajfusg77ia" path="res://Scenes/optionsmenu/hotkey_rebind_button.tscn" id="2_wqh1s"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d48ot"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_c8ek0"]
 
 [node name="SettingsTabContainer" type="Control"]
 layout_mode = 3
@@ -23,9 +27,12 @@ offset_bottom = -100.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
+current_tab = 2
 
 [node name="Sound" type="TabBar" parent="TabContainer"]
+visible = false
 layout_mode = 2
+theme_override_fonts/font = ExtResource("1_w7ygs")
 
 [node name="MarginContainer" type="MarginContainer" parent="TabContainer/Sound"]
 layout_mode = 1
@@ -46,37 +53,39 @@ alignment = 1
 
 [node name="Label" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Game Volume"
 
 [node name="Label2" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Menu Music Volume"
 
 [node name="Label3" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Game Music Volume"
 
 [node name="Label4" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Soundeffects"
 
 [node name="Label5" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Sound On / Off"
 
 [node name="Graphics" type="TabBar" parent="TabContainer"]
 visible = false
 layout_mode = 2
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="TabContainer/Graphics"]
 layout_mode = 1
@@ -97,37 +106,40 @@ alignment = 1
 
 [node name="Label" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
 text = "Graphics
 "
 
 [node name="Label2" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Graphics
+"
 
 [node name="Label3" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Graphics
+"
 
 [node name="Label4" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Graphics
+"
 
 [node name="Label5" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Graphics
+"
 
 [node name="Controls" type="TabBar" parent="TabContainer"]
-visible = false
 layout_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="TabContainer/Controls"]
@@ -142,40 +154,69 @@ theme_override_constants/margin_top = 24
 theme_override_constants/margin_right = 24
 theme_override_constants/margin_bottom = 24
 
-[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Controls/MarginContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="TabContainer/Controls/MarginContainer"]
 layout_mode = 2
-theme_override_constants/separation = 36
-alignment = 1
 
-[node name="Label" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Controls/MarginContainer/ScrollContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_constants/separation = 64
 
-[node name="Label2" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_constants/separation = 24
+theme_override_styles/separator = SubResource("StyleBoxEmpty_d48ot")
 
-[node name="Label3" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer"]
+[node name="Hotkey_rebind_button" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
 
-[node name="Label4" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer"]
+[node name="Hotkey_rebind_button2" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+action_name = "ui_right"
 
-[node name="Label5" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer"]
+[node name="Hotkey_rebind_button3" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+action_name = "ui_up"
+
+[node name="Hotkey_rebind_button4" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
+layout_mode = 2
+action_name = "ui_down"
+
+[node name="Hotkey_rebind_button5" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
+visible = false
+layout_mode = 2
+
+[node name="Hotkey_rebind_button6" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
+visible = false
+layout_mode = 2
+
+[node name="Hotkey_rebind_button7" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
+visible = false
+layout_mode = 2
+
+[node name="Hotkey_rebind_button8" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
+visible = false
+layout_mode = 2
+
+[node name="Hotkey_rebind_button9" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
+visible = false
+layout_mode = 2
+
+[node name="Hotkey_rebind_button10" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
+visible = false
+layout_mode = 2
+
+[node name="Hotkey_rebind_button11" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
+visible = false
+layout_mode = 2
+
+[node name="Hotkey_rebind_button12" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_wqh1s")]
+visible = false
+layout_mode = 2
+
+[node name="HSeparator2" type="HSeparator" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 24
+theme_override_styles/separator = SubResource("StyleBoxEmpty_c8ek0")
 
 [node name="Accessibility" type="TabBar" parent="TabContainer"]
 visible = false
@@ -200,33 +241,38 @@ alignment = 1
 
 [node name="Label" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Graphics
+"
 
 [node name="Label2" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Graphics
+"
 
 [node name="Label3" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Graphics
+"
 
 [node name="Label4" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Graphics
+"
 
 [node name="Label5" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Graphics
+"
 
 [node name="Credits" type="TabBar" parent="TabContainer"]
 visible = false
@@ -251,30 +297,42 @@ alignment = 1
 
 [node name="Label" type="Label" parent="TabContainer/Credits/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
-
-[node name="Label2" type="Label" parent="TabContainer/Credits/MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Created and Directed by
+"
 
 [node name="Label3" type="Label" parent="TabContainer/Credits/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Art
+"
 
 [node name="Label4" type="Label" parent="TabContainer/Credits/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Sound Design
+"
 
 [node name="Label5" type="Label" parent="TabContainer/Credits/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_og1xe")
-theme_override_font_sizes/font_size = 24
-text = "Volume"
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Lead Designer
+"
+
+[node name="Label6" type="Label" parent="TabContainer/Credits/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Lead Programmer
+"
+
+[node name="Label8" type="Label" parent="TabContainer/Credits/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_w7ygs")
+theme_override_font_sizes/font_size = 32
+text = "Special Thanks to
+"

@@ -1,14 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://d1cpd0hboyuv4"]
+[gd_scene load_steps=5 format=3 uid="uid://d1cpd0hboyuv4"]
 
 [ext_resource type="Script" path="res://Scenes/mainmenu/main_menu.gd" id="1_dis7o"]
 [ext_resource type="Texture2D" uid="uid://bsnne10xy7pqh" path="res://resources/sprites/tilesets/tilemap-backgrounds_packed.png" id="1_i1n7e"]
+[ext_resource type="FontFile" uid="uid://dc0vefpbebp5q" path="res://resources/fonts/born2bsporty-fs/Born2bSportyFS.otf" id="3_2dd1r"]
 [ext_resource type="PackedScene" uid="uid://vj2ndoii7jbd" path="res://Scenes/optionsmenu/options_menu.tscn" id="3_dvul2"]
-
-[sub_resource type="SystemFont" id="SystemFont_66844"]
-font_names = PackedStringArray("Comic Sans MS")
-
-[sub_resource type="SystemFont" id="SystemFont_7sehm"]
-font_names = PackedStringArray("Comic Sans MS")
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -53,10 +48,11 @@ layout_mode = 2
 layout_mode = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/shadow_offset_x = 4
+theme_override_constants/shadow_offset_x = 8
 theme_override_constants/shadow_offset_y = 4
-theme_override_constants/outline_size = 8
-theme_override_fonts/font = SubResource("SystemFont_66844")
+theme_override_constants/outline_size = 12
+theme_override_constants/shadow_outline_size = 8
+theme_override_fonts/font = ExtResource("3_2dd1r")
 theme_override_font_sizes/font_size = 64
 text = "Kaendyland"
 horizontal_alignment = 1
@@ -77,8 +73,8 @@ layout_mode = 2
 [node name="Start_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(120, 32)
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_7sehm")
-theme_override_font_sizes/font_size = 24
+theme_override_fonts/font = ExtResource("3_2dd1r")
+theme_override_font_sizes/font_size = 30
 text = "Play"
 
 [node name="Seperator3" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
@@ -87,8 +83,8 @@ layout_mode = 2
 [node name="Options_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(120, 32)
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_7sehm")
-theme_override_font_sizes/font_size = 24
+theme_override_fonts/font = ExtResource("3_2dd1r")
+theme_override_font_sizes/font_size = 30
 text = "Options"
 
 [node name="Seperator2" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
@@ -97,9 +93,9 @@ layout_mode = 2
 [node name="Savegames_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(120, 32)
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_7sehm")
-theme_override_font_sizes/font_size = 24
-text = "Savegames"
+theme_override_fonts/font = ExtResource("3_2dd1r")
+theme_override_font_sizes/font_size = 30
+text = "Savegame"
 
 [node name="Seperator4" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
@@ -107,8 +103,8 @@ layout_mode = 2
 [node name="Exit_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(120, 32)
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_7sehm")
-theme_override_font_sizes/font_size = 24
+theme_override_fonts/font = ExtResource("3_2dd1r")
+theme_override_font_sizes/font_size = 30
 text = "Quit Game"
 
 [node name="OptionsMenu" parent="." instance=ExtResource("3_dvul2")]

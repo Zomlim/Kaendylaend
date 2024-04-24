@@ -44,3 +44,5 @@ func animate():
 			_animation_player.play("IdleRight")
 		elif _animation_player.get_current_animation() == "WalkLeft":
 			_animation_player.play("IdleLeft")
+
+

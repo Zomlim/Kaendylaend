@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://de5cxcpqslx35"]
+[gd_scene load_steps=34 format=3 uid="uid://de5cxcpqslx35"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_5mk27"]
 [ext_resource type="Texture2D" uid="uid://bf7osxctrp6eq" path="res://Sprites/Player/Larry/SpriteSheet-v3.png" id="2_1v0xv"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://dmlkmip6q8uok" path="res://Sprites/Background/Tilesets/TilesetElement.png" id="7_r0rq1"]
 [ext_resource type="Texture2D" uid="uid://bxhvpbfefbjke" path="res://Sprites/Player/Monk/SpriteSheet.png" id="8_lxk3b"]
 [ext_resource type="Texture2D" uid="uid://cgpv4y0x6sh37" path="res://Sprites/Background/Tilesets/TilesetNature.png" id="9_ll5j1"]
+[ext_resource type="Script" path="res://Scripts/InteractionArea.gd" id="10_q5s7n"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mmulg"]
 size = Vector2(12, 6)
@@ -6063,6 +6064,15 @@ sources/5 = SubResource("TileSetAtlasSource_ab62g")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p7yha"]
 size = Vector2(13, 11)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cx158"]
+size = Vector2(19, 17)
+
+[sub_resource type="LabelSettings" id="LabelSettings_qcikv"]
+font_size = 10
+outline_size = 4
+outline_color = Color(0.321569, 0.321569, 0.321569, 1)
+shadow_size = 0
+
 [node name="playground" type="Node2D"]
 light_mask = 2
 visibility_layer = 2
@@ -6114,7 +6124,7 @@ layer_3/name = "Air Objects"
 layer_3/z_index = 4
 layer_3/tile_data = PackedInt32Array()
 
-[node name="sign" type="Node2D" parent="."]
+[node name="sign" type="StaticBody2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="sign"]
 visible = false
@@ -6123,8 +6133,35 @@ texture = ExtResource("7_r0rq1")
 region_enabled = true
 region_rect = Rect2(1, 35, 13, 11)
 
-[node name="Area2D" type="CollisionShape2D" parent="sign"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sign"]
 position = Vector2(263.5, 56.5)
 shape = SubResource("RectangleShape2D_p7yha")
 
 [node name="PopupPanel" type="PopupPanel" parent="sign"]
+
+[node name="InteractionArea" type="Area2D" parent="sign"]
+script = ExtResource("10_q5s7n")
+
+[node name="Polygon2D" type="CollisionShape2D" parent="sign/InteractionArea"]
+position = Vector2(263.5, 56.5)
+shape = SubResource("RectangleShape2D_cx158")
+
+[node name="tooltip" type="Label" parent="sign"]
+visible = false
+offset_left = 210.0
+offset_top = 29.0
+offset_right = 317.0
+offset_bottom = 52.0
+text = "[E] to interact"
+autowrap_mode = 3
+
+[node name="sign_text" type="Label" parent="sign"]
+visible = false
+offset_left = 231.0
+offset_top = 39.0
+offset_right = 304.0
+offset_bottom = 77.0
+mouse_filter = 1
+text = "Look! The sign has text."
+label_settings = SubResource("LabelSettings_qcikv")
+autowrap_mode = 3

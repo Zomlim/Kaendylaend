@@ -3,10 +3,13 @@ extends CharacterBody2D
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
 
+@onready var chest = $/root/playground/chest/interaction_area_chest
+
 
 func _physics_process(_delta):
-	get_input()
-	move_and_slide()
+	if (!chest.is_open):
+		get_input()
+		move_and_slide()
 	
 func _process(_delta):
 	animate()

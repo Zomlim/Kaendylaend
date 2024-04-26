@@ -66,13 +66,22 @@ func _on_button_toggled(toggled_on):
 		set_text_for_key()
 		
 func _unhandled_key_input(event):
-	_rebind_action_key(event)
+	rebind_action_key(event)
 	button.button_pressed = false
 
-func _rebind_action_key(event) ->void:
-	InputMap.action_erase_events(action_name)
-	InputMap.action_add_event(action_name, event)
+func rebind_action_key(event):
+	var is_duplicate=false
+	var action_event=event
+	var action_keycode=OS.get_keycode_string(action_event.physical_keycode)
 	
-	set_process_unhandled_key_input(false)
-	set_text_for_key()
-	set_action_name()
+	for i in get_tree().get_nodes_in_group("hotkey_button"):
+		if i.action_name!=self.action_name:
+			if i.button.text=="%s" %action_keycode:
+				is_duplicate=true
+				break
+	if not is_duplicate:
+		InputMap.action_erase_events(action_name)
+		InputMap.action_add_event(action_name,event)
+		set_process_unhandled_key_input(false)
+		set_text_for_key()
+		set_action_name()

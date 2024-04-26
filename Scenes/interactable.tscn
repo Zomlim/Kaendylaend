@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=3 uid="uid://d1dbxupg2mbg5"]
+
+[ext_resource type="Texture2D" uid="uid://dmlkmip6q8uok" path="res://Sprites/Background/Tilesets/TilesetElement.png" id="1_go8ad"]
+[ext_resource type="Script" path="res://Scripts/Interactables/base_interactable.gd" id="2_ovifb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p7yha"]
+size = Vector2(13, 11)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cx158"]
+size = Vector2(19, 17)
+
+[sub_resource type="LabelSettings" id="LabelSettings_qcikv"]
+font_size = 10
+outline_size = 4
+outline_color = Color(0.223529, 0.223529, 0.223529, 1)
+shadow_size = 0
+
+[node name="sign" type="StaticBody2D"]
+script = ExtResource("2_ovifb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(264, 56)
+texture = ExtResource("1_go8ad")
+region_enabled = true
+region_rect = Rect2(1, 35, 13, 11)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(263.5, 56.5)
+shape = SubResource("RectangleShape2D_p7yha")
+
+[node name="InteractionAreaSign" type="Area2D" parent="."]
+
+[node name="Polygon2D" type="CollisionShape2D" parent="InteractionAreaSign"]
+position = Vector2(264, 57)
+shape = SubResource("RectangleShape2D_cx158")
+
+[node name="tooltip" type="Label" parent="."]
+visible = false
+offset_left = 210.0
+offset_top = 29.0
+offset_right = 317.0
+offset_bottom = 52.0
+text = "[E] to interact"
+autowrap_mode = 3
+
+[node name="sign_text" type="Label" parent="."]
+visible = false
+offset_left = 231.0
+offset_top = 39.0
+offset_right = 304.0
+offset_bottom = 77.0
+mouse_filter = 1
+text = "Look! The sign has text."
+label_settings = SubResource("LabelSettings_qcikv")
+autowrap_mode = 3

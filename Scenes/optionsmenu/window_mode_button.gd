@@ -11,7 +11,7 @@ const window_mode_array : Array[String] =[
 
 func _ready():
 	add_window_mode_items()
-	option_button.item.selected.connect(on_window_mode_selected)
+	#option_button.item.selected.connect(on_window_mode_selected)
 
 func add_window_mode_items() ->void:
 	for window_mode in window_mode_array:

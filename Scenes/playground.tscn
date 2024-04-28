@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://de5cxcpqslx35"]
+[gd_scene load_steps=32 format=3 uid="uid://de5cxcpqslx35"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_5mk27"]
 [ext_resource type="Texture2D" uid="uid://bu3k1800cmv3j" path="res://Sprites/Player/Larry/SpriteSheet-v2.png" id="2_sfm2e"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://dmlkmip6q8uok" path="res://Sprites/Background/Tilesets/TilesetElement.png" id="7_r0rq1"]
 [ext_resource type="Texture2D" uid="uid://bxhvpbfefbjke" path="res://Sprites/Player/Monk/SpriteSheet.png" id="8_lxk3b"]
 [ext_resource type="Texture2D" uid="uid://cgpv4y0x6sh37" path="res://Sprites/Background/Tilesets/TilesetNature.png" id="9_ll5j1"]
+[ext_resource type="AudioStream" uid="uid://ugiyu3yyj02i" path="res://resources/audio/music/Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg" id="10_mkud1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mmulg"]
 size = Vector2(12, 6)
@@ -6128,3 +6129,9 @@ position = Vector2(263.5, 56.5)
 shape = SubResource("RectangleShape2D_p7yha")
 
 [node name="PopupPanel" type="PopupPanel" parent="sign"]
+
+[node name="Music_stream_player" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_mkud1")
+volume_db = -29.982
+autoplay = true
+bus = &"Music"

@@ -3,14 +3,14 @@ extends CharacterBody2D
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
 
+@onready var Walking_sfx = $AudioStreamPlayer2D as AudioStreamPlayer2D
 
 func _physics_process(_delta):
 	get_input()
 	move_and_slide()
-	
+
 func _process(_delta):
 	animate()
-
 
 func get_input():
 	var input_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
@@ -27,7 +27,7 @@ func animate():
 	if Input.is_action_pressed("ui_down"):
 		_animation_player.play("WalkDown")
 	elif Input.is_action_pressed("ui_up"):
-		_animation_player.play("WalkUp")	
+		_animation_player.play("WalkUp")
 	elif Input.is_action_pressed("ui_right"):
 		_animation_player.play("WalkRight")
 	elif Input.is_action_pressed("ui_left"):

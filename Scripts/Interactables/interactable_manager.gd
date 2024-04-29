@@ -14,10 +14,10 @@ var object_in_range: StaticBody2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	interactables_on_scene = get_children()
 	create_label_settings()
 	create_tooltip_text()
 	set_labels()
-	interactables_on_scene = get_children()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
@@ -30,20 +30,19 @@ func create_label_settings():
 	tooltip_style.outline_color = Color(0.2, 0.2, 0.2, 0.9)
 	tooltip_style.outline_size = 3
 	tooltip_style.font_size = 8
-	
 
 func create_tooltip_text():
 	var keys = ""
 	var inputKeys = InputMap.action_get_events("interact")
 	for key in inputKeys:
-		keys = keys + '[' + key.as_text()[0] + ']'
+		keys = keys + '[' + key.as_text().get_slice(" ", 0) + ']'
 	tooltip = keys + " to interact"
 
 func set_labels():
 	for interactable in interactables_on_scene:
 		interactable.label.text = tooltip
 		interactable.label.label_settings = tooltip_style
-		
+		interactable.label.horizontal_alignment = HorizontalAlignment.HORIZONTAL_ALIGNMENT_CENTER
 
 # checks whether an object is in range
 func check_range():

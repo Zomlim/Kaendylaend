@@ -1,5 +1,7 @@
 extends Node2D
-# this is an abstract class
+# this is a template for any given interactable
+# copy this to any script of an interactable and fill out functions as needed
+# vars may be be added, but NOT REMOVED
 
 # interaction range
 @onready var interaction_area = $InteractionAreaSign
@@ -7,7 +9,7 @@ extends Node2D
 @onready var label = $tooltip
 @onready var text = $sign_text
 
-var active_blocks_movement = false # whether to block movement while interaction is active
+@export var active_blocks_movement = false # whether to block movement while interaction is active
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

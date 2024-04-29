@@ -6069,6 +6069,7 @@ visibility_layer = 2
 [node name="Player" type="CharacterBody2D" parent="."]
 light_mask = 2
 visibility_layer = 2
+z_index = 1
 position = Vector2(240, 144)
 script = ExtResource("1_5mk27")
 
@@ -6120,3 +6121,14 @@ script = ExtResource("12_4sky6")
 
 [node name="sign2" parent="Interactable_manager" instance=ExtResource("10_n37wp")]
 position = Vector2(-80, 144)
+
+[node name="gem" parent="Interactable_manager" instance=ExtResource("10_n37wp")]
+position = Vector2(160, -1)
+active_blocks_movement = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="Interactable_manager/gem"]
+position = Vector2(264, 57)
+scale = Vector2(-1.047, 1)
+texture = ExtResource("9_ll5j1")
+region_enabled = true
+region_rect = Rect2(32, 256, 16, 16)

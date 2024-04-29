@@ -36,15 +36,16 @@ shape = SubResource("RectangleShape2D_cx158")
 
 [node name="tooltip" type="Label" parent="."]
 visible = false
+z_index = 2
 offset_left = 210.0
 offset_top = 29.0
 offset_right = 317.0
 offset_bottom = 52.0
-text = "[E] to interact"
 autowrap_mode = 3
 
 [node name="sign_text" type="Label" parent="."]
 visible = false
+z_index = 2
 offset_left = 231.0
 offset_top = 39.0
 offset_right = 304.0

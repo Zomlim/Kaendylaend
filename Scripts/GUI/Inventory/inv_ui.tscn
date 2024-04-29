@@ -17,9 +17,9 @@ script = ExtResource("1_h23q6")
 z_index = 1
 layout_mode = 0
 offset_left = 710.0
-offset_top = 69.0
+offset_top = 108.0
 offset_right = 1070.0
-offset_bottom = 565.0
+offset_bottom = 604.0
 texture = ExtResource("2_2cydk")
 patch_margin_left = 6
 patch_margin_top = 6
@@ -159,3 +159,82 @@ scale = Vector2(1053.84, 443.591)
 position = Vector2(469, 315)
 scale = Vector2(2, 2)
 texture = ExtResource("4_ygqnk")
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="."]
+z_index = 1
+offset_left = -36.0
+offset_top = -28.0
+offset_right = 248.0
+offset_bottom = 751.0
+texture = ExtResource("2_2cydk")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
+
+[node name="GridContainer" type="GridContainer" parent="NinePatchRect2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -77.0
+offset_top = -12.5
+offset_right = 55.0
+offset_bottom = 255.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.5, 1.5)
+columns = 2
+
+[node name="Inv_UI_Slot1" parent="NinePatchRect2/GridContainer" instance=ExtResource("3_tlg3w")]
+layout_mode = 2
+
+[node name="Inv_UI_Slot2" parent="NinePatchRect2/GridContainer" instance=ExtResource("3_tlg3w")]
+layout_mode = 2
+
+[node name="Inv_UI_Slot3" parent="NinePatchRect2/GridContainer" instance=ExtResource("3_tlg3w")]
+layout_mode = 2
+
+[node name="Inv_UI_Slot4" parent="NinePatchRect2/GridContainer" instance=ExtResource("3_tlg3w")]
+layout_mode = 2
+
+[node name="NinePatchRect3" type="NinePatchRect" parent="."]
+z_index = 1
+offset_left = 715.0
+offset_top = 25.0
+offset_right = 998.0
+offset_bottom = 105.0
+texture = ExtResource("2_2cydk")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
+
+[node name="GridContainer" type="GridContainer" parent="NinePatchRect3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -133.5
+offset_top = -32.0
+offset_right = 134.5
+offset_bottom = 236.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 4
+
+[node name="Inv_UI_Slot1" parent="NinePatchRect3/GridContainer" instance=ExtResource("3_tlg3w")]
+layout_mode = 2
+
+[node name="Inv_UI_Slot2" parent="NinePatchRect3/GridContainer" instance=ExtResource("3_tlg3w")]
+layout_mode = 2
+
+[node name="Inv_UI_Slot3" parent="NinePatchRect3/GridContainer" instance=ExtResource("3_tlg3w")]
+layout_mode = 2
+
+[node name="Inv_UI_Slot4" parent="NinePatchRect3/GridContainer" instance=ExtResource("3_tlg3w")]
+layout_mode = 2

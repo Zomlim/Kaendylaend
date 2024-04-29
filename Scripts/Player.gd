@@ -9,6 +9,13 @@ class_name Player
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
 
+@export var health = 100
+
+@export var atk = 10
+@export var def = 0
+
+
+@export var charName = "Larry"
 
 func _process(_delta):
 	if(!invUI.is_open):

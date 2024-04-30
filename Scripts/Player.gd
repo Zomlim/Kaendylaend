@@ -1,21 +1,35 @@
 extends CharacterBody2D
 
+class_name Player
+
+@export var inv: Inv
+
+@export var invUI: Inv_UI
 
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
 
+@export var health = 100
 
-func _physics_process(_delta):
-	get_input()
-	move_and_slide()
-	
+@export var atk = 10
+@export var def = 0
+
+
+@export var charName = "Larry"
+
 func _process(_delta):
-	animate()
+	if(!invUI.is_open):
+		get_input()
+		move_and_slide()
+		animate()
+	else:
+		velocity = Vector2.ZERO
 
 
 func get_input():
 	var input_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	velocity = input_direction * speed
+
 
 func animate():
 	# set a default animation that does not override anything

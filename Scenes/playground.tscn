@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://de5cxcpqslx35"]
+[gd_scene load_steps=31 format=3 uid="uid://de5cxcpqslx35"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_5mk27"]
 [ext_resource type="Texture2D" uid="uid://bf7osxctrp6eq" path="res://Sprites/Player/Larry/SpriteSheet-v3.png" id="2_1v0xv"]
@@ -9,7 +9,6 @@
 [ext_resource type="Texture2D" uid="uid://dmlkmip6q8uok" path="res://Sprites/Background/Tilesets/TilesetElement.png" id="7_r0rq1"]
 [ext_resource type="Texture2D" uid="uid://bxhvpbfefbjke" path="res://Sprites/Player/Monk/SpriteSheet.png" id="8_lxk3b"]
 [ext_resource type="Texture2D" uid="uid://cgpv4y0x6sh37" path="res://Sprites/Background/Tilesets/TilesetNature.png" id="9_ll5j1"]
-[ext_resource type="PackedScene" uid="uid://d1dbxupg2mbg5" path="res://Scenes/interactable.tscn" id="10_n37wp"]
 [ext_resource type="Script" path="res://Scripts/Interactables/interactable_manager.gd" id="12_4sky6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mmulg"]
@@ -6116,19 +6115,3 @@ layer_3/tile_data = PackedInt32Array()
 
 [node name="Interactable_manager" type="Node" parent="."]
 script = ExtResource("12_4sky6")
-
-[node name="sign" parent="Interactable_manager" instance=ExtResource("10_n37wp")]
-
-[node name="sign2" parent="Interactable_manager" instance=ExtResource("10_n37wp")]
-position = Vector2(-80, 144)
-
-[node name="gem" parent="Interactable_manager" instance=ExtResource("10_n37wp")]
-position = Vector2(160, -1)
-active_blocks_movement = true
-
-[node name="Sprite2D2" type="Sprite2D" parent="Interactable_manager/gem"]
-position = Vector2(264, 57)
-scale = Vector2(-1.047, 1)
-texture = ExtResource("9_ll5j1")
-region_enabled = true
-region_rect = Rect2(32, 256, 16, 16)

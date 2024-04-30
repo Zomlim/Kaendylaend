@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://dmcngyk6bohsb"]
+
+[ext_resource type="PackedScene" uid="uid://d1dbxupg2mbg5" path="res://Scenes/interactable.tscn" id="1_pmn7e"]
+[ext_resource type="Texture2D" uid="uid://cgpv4y0x6sh37" path="res://Sprites/Background/Tilesets/TilesetNature.png" id="2_aqpjn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_csckm"]
+size = Vector2(16, 14)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yil50"]
+size = Vector2(22, 20)
+
+[node name="sign" instance=ExtResource("1_pmn7e")]
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_aqpjn")
+region_rect = Rect2(288, 273, 16, 14)
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(264, 56)
+shape = SubResource("RectangleShape2D_csckm")
+
+[node name="Polygon2D" parent="InteractionAreaSign" index="0"]
+position = Vector2(264, 56)
+shape = SubResource("RectangleShape2D_yil50")
+
+[node name="sign_text" parent="." index="4"]
+text = ""

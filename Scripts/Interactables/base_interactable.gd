@@ -1,7 +1,11 @@
 extends Node2D
 # this is a template for any given interactable
-# copy this to any script of an interactable and fill out functions as needed
-# vars may be be added, but NOT REMOVED
+# to make a new interactable:
+# right click on this scene in the FileSystem section (bottom left)
+# and create an Inherited Scene
+# adjust as needed (ie change Sprite and hitboxes
+
+# -------------------
 
 # interaction range
 @onready var interaction_area = $InteractionAreaSign
@@ -9,7 +13,17 @@ extends Node2D
 @onready var label = $tooltip
 @onready var text = $sign_text
 
-@export var active_blocks_movement = false # whether to block movement while interaction is active
+# set properties of the interactable
+@export var interactable_properties = {
+	"block_movement": false,
+	"change_screen": false,
+	"destroyable": false,
+	"dialogue": true,
+	"get_item": false,
+	"moveable": false
+}
+
+# -------- functions --------
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -33,6 +47,9 @@ func leave():
 func activate():
 	label.hide()
 	text.show()
+	# get_item
+	# move
+	# change_screen
 	
 # Called when player is in range and dismisses action
 func deactivate():

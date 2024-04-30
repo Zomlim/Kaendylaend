@@ -83,7 +83,7 @@ func handle_input():
 		if not is_active:
 			object_in_range.activate()
 			is_active = true
-			if object_in_range.active_blocks_movement:
+			if object_in_range.interactable_properties["block_movement"]:
 				block_movement = true
 		else:
 			object_in_range.deactivate()

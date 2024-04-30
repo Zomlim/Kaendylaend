@@ -1,24 +1,38 @@
 extends CharacterBody2D
 
-@onready var _animation_player = $AnimationPlayer
-@export var speed = 140
+
+class_name Player
+
+@export var inv: Inv
+
+@export var invUI: Inv_UI
 
 @onready var interactions = $/root/playground/Interactable_manager
 
+@onready var _animation_player = $AnimationPlayer
+@export var speed = 140
 
-func _physics_process(_delta):
-	if not interactions.block_movement:
+@export var health = 100
+
+@export var atk = 10
+@export var def = 0
+
+
+@export var charName = "Larry"
+
+func _process(_delta):
+	if((!invUI.is_open) or (not interactions.block_movement)):
 		get_input()
 		move_and_slide()
-	
-func _process(_delta):
-	if not interactions.block_movement:
 		animate()
+	else:
+		velocity = Vector2.ZERO
 
 
 func get_input():
 	var input_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	velocity = input_direction * speed
+
 
 func animate():
 	# set a default animation that does not override anything
@@ -48,5 +62,3 @@ func animate():
 			_animation_player.play("IdleRight")
 		elif _animation_player.get_current_animation() == "WalkLeft":
 			_animation_player.play("IdleLeft")
-
-

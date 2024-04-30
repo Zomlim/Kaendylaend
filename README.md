@@ -3,6 +3,10 @@ Auf Dietos herrscht Aufruhr. Zwischen Vegetania und Frutera herrscht ein Krieg u
 
 ## Implementation notes
 
+### Inventory
+- currently only exists as UI, not interactable
+- items have to be added as resources using the Inventory_Item script
+
 ### Animation
 - Add your animation SpriteSheed
 - put it in an AnimationPlayer
@@ -32,3 +36,4 @@ needs to be mapped:
 - selects TileMap object
 - bottom menu: TileSet -> Tiles -> Select -> scroll down to Physics
 - add your mapping: using snap to grid (16) is recommended
+

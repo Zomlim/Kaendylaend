@@ -1,14 +1,27 @@
-[gd_scene load_steps=5 format=3 uid="uid://b316yvhfet7b3"]
+[gd_scene load_steps=5 format=3 uid="uid://bmoqvrh4efl7p"]
 
-[ext_resource type="Script" path="res://Scenes/Scripts/BubbleDramaDisplay.gd" id="1_5186c"]
 [ext_resource type="AudioStream" uid="uid://br4uidqiyskda" path="res://resources/audio/sfx/speak.wav" id="3_12qaw"]
 [ext_resource type="Theme" uid="uid://kgkrtpvr80cq" path="res://resources/themes/MainTheme.tres" id="3_uk74w"]
+
+[sub_resource type="GDScript" id="GDScript_x4l67"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_m6eke"]
 
 [node name="BubbleDramaDisplay" type="Node2D"]
 texture_filter = 1
-script = ExtResource("1_5186c")
+script = SubResource("GDScript_x4l67")
 
 [node name="Bubble" type="Polygon2D" parent="."]
 texture_filter = 1

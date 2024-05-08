@@ -3,7 +3,7 @@ extends CharacterBody2D
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
 
-@onready var Walking_sfx = $AudioStreamPlayer2D as AudioStreamPlayer2D
+#@onready var Walking_sfx = $AudioStreamPlayer2D as AudioStreamPlayer2D
 
 func _physics_process(_delta):
 	get_input()

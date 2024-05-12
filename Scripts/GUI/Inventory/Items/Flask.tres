@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="InvItem" load_steps=3 format=3 uid="uid://qpt42o01nbrn"]
+
+[ext_resource type="Script" path="res://Scripts/GUI/Inventory/Inventory_Item.gd" id="1_usg7g"]
+[ext_resource type="Texture2D" uid="uid://c224bqn0wtjl7" path="res://Sprites/UI/Inventory/Items/WaterPot.png" id="2_v14ir"]
+
+[resource]
+script = ExtResource("1_usg7g")
+name = "flask"
+texture = ExtResource("2_v14ir")

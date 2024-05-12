@@ -9,7 +9,6 @@ class_name player
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
 
-
 @export var health = 100
 
 @export var atk = 10
@@ -25,6 +24,7 @@ func _process(_delta):
 		animate()
 	else:
 		velocity = Vector2.ZERO
+
 
 func get_input():
 	var input_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
@@ -42,7 +42,7 @@ func animate():
 	if Input.is_action_pressed("ui_down"):
 		_animation_player.play("WalkDown")
 	elif Input.is_action_pressed("ui_up"):
-		_animation_player.play("WalkUp")
+		_animation_player.play("WalkUp")	
 	elif Input.is_action_pressed("ui_right"):
 		_animation_player.play("WalkRight")
 	elif Input.is_action_pressed("ui_left"):

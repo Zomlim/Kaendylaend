@@ -1,10 +1,10 @@
 extends CharacterBody2D
 
-class_name Player
+class_name player
 
-@export var inv: Inv
+@export var inv: inv
 
-@export var invUI: Inv_UI
+@export var inv_ui: inv_ui
 
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
@@ -15,10 +15,10 @@ class_name Player
 @export var def = 0
 
 
-@export var charName = "Larry"
+@export var char_name = "Larry"
 
 func _process(_delta):
-	if(!invUI.is_open):
+	if(!inv_ui.is_open):
 		get_input()
 		move_and_slide()
 		animate()

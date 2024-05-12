@@ -3,7 +3,7 @@ extends Panel
 @onready var item_visual: Sprite2D = $CenterContainer/Panel/Item_Display
 
 # update the visibility of the item visual when the slot contains an item
-func update(item: InvItem):
+func update(item: inv_item):
 	if(!item):
 		item_visual.visible = false
 	else:

@@ -6611,11 +6611,15 @@ sources/7 = SubResource("TileSetAtlasSource_uvs55")
 light_mask = 2
 visibility_layer = 2
 
-[node name="Player" parent="." node_paths=PackedStringArray("invUI") instance=ExtResource("1_gm5ha")]
+[node name="Player" parent="." instance=ExtResource("1_gm5ha")]
 z_index = 1
 y_sort_enabled = true
 inv = ExtResource("2_ucgxp")
-invUI = NodePath("../CanvasLayer/Inv_UI")
+speed = null
+health = null
+atk = null
+def = null
+char_name = null
 
 [node name="Camera2D" type="Camera2D" parent="." node_paths=PackedStringArray("player", "tilemap")]
 position = Vector2(0, -1)

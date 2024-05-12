@@ -1,8 +1,8 @@
 extends Control
 
-class_name Inv_UI
+class_name inv_ui
 
-@onready var inv: Inv = preload("res://Scripts/GUI/Inventory/PlayerInv.tres")
+@onready var inv: inv = preload("res://Scripts/GUI/Inventory/PlayerInv.tres")
 @onready var slots: Array = $NinePatchRect/GridContainer.get_children()
 
 var is_open = false

@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://de5cxcpqslx35"]
+[gd_scene load_steps=32 format=3 uid="uid://de5cxcpqslx35"]
 
 [ext_resource type="PackedScene" uid="uid://dhx3x8sgpumvh" path="res://Scenes/Player.tscn" id="1_gm5ha"]
 [ext_resource type="Resource" uid="uid://bocjj27kfath5" path="res://Sprites/UI/Inventory/PlayerInv.tres" id="2_ucgxp"]
@@ -10,6 +10,215 @@
 [ext_resource type="Texture2D" uid="uid://bxhvpbfefbjke" path="res://Sprites/Player/Monk/SpriteSheet.png" id="8_lxk3b"]
 [ext_resource type="Texture2D" uid="uid://dyj3560s53do2" path="res://Sprites/Background/Vehicles/Boat.png" id="9_lekag"]
 [ext_resource type="Texture2D" uid="uid://cgpv4y0x6sh37" path="res://Sprites/Background/Tilesets/TilesetNature.png" id="9_ll5j1"]
+
+[ext_resource type="AudioStream" uid="uid://ugiyu3yyj02i" path="res://resources/audio/music/Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg" id="10_mkud1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mmulg"]
+size = Vector2(12, 6)
+
+[sub_resource type="GDScript" id="GDScript_33j60"]
+script/source = "extends CollisionShape2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(_delta):
+	pass
+"
+
+[sub_resource type="Animation" id="Animation_vweuw"]
+resource_name = "Die"
+length = 1.2
+step = 0.15
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9, 1.05),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [72, 73, 74, 75, 76, 77, 78, 79]
+}
+
+[sub_resource type="Animation" id="Animation_drlfj"]
+resource_name = "IdleDown"
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+
+[sub_resource type="Animation" id="Animation_0xx5q"]
+resource_name = "IdleLeft"
+length = 0.8
+loop_mode = 1
+step = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [16, 17]
+}
+
+[sub_resource type="Animation" id="Animation_fexk6"]
+resource_name = "IdleRight"
+length = 0.8
+loop_mode = 1
+step = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [24, 25]
+}
+
+[sub_resource type="Animation" id="Animation_fgeoo"]
+resource_name = "IdleUp"
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [8, 9]
+}
+
+[sub_resource type="Animation" id="Animation_e8wna"]
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+
+[sub_resource type="Animation" id="Animation_xg81w"]
+resource_name = "WalkDown"
+length = 0.6
+loop_mode = 1
+step = 0.15
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [32, 34, 33, 35]
+}
+
+[sub_resource type="Animation" id="Animation_h0tf7"]
+resource_name = "WalkLeft"
+length = 0.6
+loop_mode = 1
+step = 0.15
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [48, 50, 49, 51]
+}
+
+[sub_resource type="Animation" id="Animation_c1s82"]
+resource_name = "WalkRight"
+length = 0.6
+loop_mode = 1
+step = 0.15
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [56, 58, 57, 59]
+}
+
+[sub_resource type="Animation" id="Animation_40kfi"]
+resource_name = "WalkUp"
+length = 0.6
+loop_mode = 1
+step = 0.15
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [40, 42, 41, 43]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4j4y1"]
+_data = {
+"Die": SubResource("Animation_vweuw"),
+"IdleDown": SubResource("Animation_drlfj"),
+"IdleLeft": SubResource("Animation_0xx5q"),
+"IdleRight": SubResource("Animation_fexk6"),
+"IdleUp": SubResource("Animation_fgeoo"),
+"RESET": SubResource("Animation_e8wna"),
+"WalkDown": SubResource("Animation_xg81w"),
+"WalkLeft": SubResource("Animation_h0tf7"),
+"WalkRight": SubResource("Animation_c1s82"),
+"WalkUp": SubResource("Animation_40kfi")
+}
+
 [ext_resource type="PackedScene" uid="uid://blnuw0slbwoo8" path="res://Scenes/Sign.tscn" id="9_ugygk"]
 [ext_resource type="Texture2D" uid="uid://2hit6i2jv2o6" path="res://Sprites/Background/Tilesets/TilesetVillageAbandoned.png" id="11_qnriu"]
 [ext_resource type="PackedScene" uid="uid://b6nwgvoqeig6" path="res://Scripts/GUI/Inventory/inv_ui.tscn" id="12_df8w8"]
@@ -5885,6 +6094,15 @@ texture = ExtResource("9_lekag")
 4:1/0 = 0
 4:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 4:1/0/physics_layer_0/angular_velocity = 0.0
+
+
+[node name="PopupPanel" type="PopupPanel" parent="sign"]
+
+[node name="Music_stream_player" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_mkud1")
+volume_db = -29.982
+autoplay = true
+bus = &"Music"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uvs55"]
 texture = ExtResource("11_qnriu")

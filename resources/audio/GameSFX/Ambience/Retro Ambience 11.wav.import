@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cer1awbc8ghxm"
+path="res://.godot/imported/Retro Ambience 11.wav-d08b048a3d04a84254bfb50a1ba9a5ea.sample"
+
+[deps]
+
+source_file="res://resources/audio/GameSFX/Ambience/Retro Ambience 11.wav"
+dest_files=["res://.godot/imported/Retro Ambience 11.wav-d08b048a3d04a84254bfb50a1ba9a5ea.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://byhau6ab0sjvf"]
+
+[ext_resource type="FontFile" uid="uid://dc0vefpbebp5q" path="res://resources/fonts/born2bsporty-fs/Born2bSportyFS.otf" id="1_c8elc"]
+
+[node name="Options_graphics_button" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+offset_right = 139.0
+offset_bottom = 23.0
+theme_override_constants/separation = 160
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+custom_minimum_size = Vector2(256, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_c8elc")
+theme_override_font_sizes/font_size = 32
+text = "Base_label"
+
+[node name="VSeparator" type="VSeparator" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="OptionButton" type="OptionButton" parent="HBoxContainer"]
+custom_minimum_size = Vector2(256, 64)
+layout_mode = 2

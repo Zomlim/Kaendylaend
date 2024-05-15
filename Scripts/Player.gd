@@ -3,14 +3,18 @@ extends CharacterBody2D
 @onready var _animation_player = $AnimationPlayer
 @export var speed = 140
 
-@onready var Walking_sfx = $AudioStreamPlayer2D as AudioStreamPlayer2D
+@onready var interactions = $/root/playground/Interactable_manager
+
 
 func _physics_process(_delta):
-	get_input()
-	move_and_slide()
-
+	if not interactions.block_movement:
+		get_input()
+		move_and_slide()
+	
 func _process(_delta):
-	animate()
+	if not interactions.block_movement:
+		animate()
+
 
 func get_input():
 	var input_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
@@ -44,3 +48,4 @@ func animate():
 			_animation_player.play("IdleRight")
 		elif _animation_player.get_current_animation() == "WalkLeft":
 			_animation_player.play("IdleLeft")
+

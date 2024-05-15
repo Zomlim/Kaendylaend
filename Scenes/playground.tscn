@@ -1,7 +1,7 @@
-[gd_scene load_steps=32 format=3 uid="uid://de5cxcpqslx35"]
+[gd_scene load_steps=31 format=3 uid="uid://de5cxcpqslx35"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_5mk27"]
-[ext_resource type="Texture2D" uid="uid://bu3k1800cmv3j" path="res://Sprites/Player/Larry/SpriteSheet-v2.png" id="2_sfm2e"]
+[ext_resource type="Texture2D" uid="uid://bf7osxctrp6eq" path="res://Sprites/Player/Larry/SpriteSheet-v3.png" id="2_1v0xv"]
 [ext_resource type="Script" path="res://Scripts/GUI/camera.gd" id="3_qxjxa"]
 [ext_resource type="Texture2D" uid="uid://bp3ohxitvxcjs" path="res://Sprites/Background/Tilesets/TilesetField.png" id="3_xrlim"]
 [ext_resource type="Texture2D" uid="uid://bb57kb3xidhfe" path="res://Sprites/Background/Tilesets/TilesetFloor.png" id="4_lc1vm"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://bxhvpbfefbjke" path="res://Sprites/Player/Monk/SpriteSheet.png" id="8_lxk3b"]
 [ext_resource type="Texture2D" uid="uid://cgpv4y0x6sh37" path="res://Sprites/Background/Tilesets/TilesetNature.png" id="9_ll5j1"]
 [ext_resource type="AudioStream" uid="uid://ugiyu3yyj02i" path="res://resources/audio/music/Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg" id="10_mkud1"]
+[ext_resource type="Script" path="res://Scripts/Interactables/interactable_manager.gd" id="12_4sky6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mmulg"]
 size = Vector2(12, 6)
@@ -47,7 +48,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_drlfj"]
 resource_name = "IdleDown"
-length = 0.8
+length = 1.2
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -56,7 +57,7 @@ tracks/0/path = NodePath(".:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.4),
+"times": PackedFloat32Array(0, 0.6),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [0, 1]
@@ -64,9 +65,9 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_0xx5q"]
 resource_name = "IdleLeft"
-length = 0.8
+length = 1.2
 loop_mode = 1
-step = 0.4
+step = 0.2
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -74,7 +75,7 @@ tracks/0/path = NodePath(".:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.4),
+"times": PackedFloat32Array(0, 0.6),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [16, 17]
@@ -82,9 +83,9 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_fexk6"]
 resource_name = "IdleRight"
-length = 0.8
+length = 1.2
 loop_mode = 1
-step = 0.4
+step = 0.2
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -92,7 +93,7 @@ tracks/0/path = NodePath(".:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.4),
+"times": PackedFloat32Array(0, 0.6),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [24, 25]
@@ -100,7 +101,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_fgeoo"]
 resource_name = "IdleUp"
-length = 0.8
+length = 1.2
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -109,7 +110,7 @@ tracks/0/path = NodePath(".:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.4),
+"times": PackedFloat32Array(0, 0.6),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [8, 9]
@@ -6071,11 +6072,12 @@ visibility_layer = 2
 [node name="Player" type="CharacterBody2D" parent="."]
 light_mask = 2
 visibility_layer = 2
+z_index = 1
 position = Vector2(240, 144)
 script = ExtResource("1_5mk27")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
-texture = ExtResource("2_sfm2e")
+texture = ExtResource("2_1v0xv")
 hframes = 8
 vframes = 10
 
@@ -6135,3 +6137,6 @@ stream = ExtResource("10_mkud1")
 volume_db = -29.982
 autoplay = true
 bus = &"Music"
+=======
+[node name="Interactable_manager" type="Node" parent="."]
+script = ExtResource("12_4sky6")

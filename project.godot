@@ -12,12 +12,16 @@ config_version=5
 
 config/name="Kaendylaend"
 run/main_scene="res://Scenes/mainmenu/main_menu.tscn"
+
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
 
 window/stretch/mode="viewport"
+
+import/blender/enabled=false
+import/fbx/enabled=false
 
 [input]
 
@@ -51,6 +55,9 @@ ui_down={
 , Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":4194322,"physical_keycode":4194322,"key_label":4194322,"unicode":0,"echo":false,"script":null)
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":12,"pressure":0.0,"pressed":false,"script":null)
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":1,"axis_value":1.0,"script":null)
+interact={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":0,"key_label":32,"unicode":32,"echo":false,"script":null)
 ]
 }
 

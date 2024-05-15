@@ -31,7 +31,7 @@ func animate():
 	if Input.is_action_pressed("ui_down"):
 		_animation_player.play("WalkDown")
 	elif Input.is_action_pressed("ui_up"):
-		_animation_player.play("WalkUp")	
+		_animation_player.play("WalkUp")
 	elif Input.is_action_pressed("ui_right"):
 		_animation_player.play("WalkRight")
 	elif Input.is_action_pressed("ui_left"):
@@ -48,5 +48,4 @@ func animate():
 			_animation_player.play("IdleRight")
 		elif _animation_player.get_current_animation() == "WalkLeft":
 			_animation_player.play("IdleLeft")
-
 

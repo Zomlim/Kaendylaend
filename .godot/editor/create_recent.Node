@@ -1,0 +1,12 @@
+AudioStreamPlayer2D
+AudioStreamPlayer
+VSeparator
+Button
+Label
+HBoxContainer
+HSeparator
+VBoxContainer
+ScrollContainer
+MarginContainer
+TabBar
+TabContainer

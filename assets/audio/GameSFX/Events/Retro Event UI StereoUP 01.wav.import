@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bax34nlocf1uv"
+path="res://.godot/imported/Retro Event UI StereoUP 01.wav-b77302071b87b287a106168c94d1cf05.sample"
+
+[deps]
+
+source_file="res://assets/audio/GameSFX/Events/Retro Event UI StereoUP 01.wav"
+dest_files=["res://.godot/imported/Retro Event UI StereoUP 01.wav-b77302071b87b287a106168c94d1cf05.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgov53ja13m5s"
+path="res://.godot/imported/Retro Birds 07.wav-d5289bc9e6cfcb49a0579f28b3da9c9f.sample"
+
+[deps]
+
+source_file="res://assets/audio/GameSFX/Animal Insects/Retro Birds 07.wav"
+dest_files=["res://.godot/imported/Retro Birds 07.wav-d5289bc9e6cfcb49a0579f28b3da9c9f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -6651,6 +6651,5 @@ position = Vector2(264, 58)
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Inv_UI" parent="CanvasLayer" instance=ExtResource("12_df8w8")]
-visible = false
 offset_right = 361.0
 offset_bottom = 493.0

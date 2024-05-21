@@ -1,8 +1,2 @@
-res://Scripts/Inventory_script
-res://Scenes/Inventory_scene
+res://common/gui/inventory/Inventory_script
 C:/Users/Hassministrator/Desktop/Kaendylaend-playground-hassinger/Kaendylaend-playground-hassinger/Kaendylaend/Scripts/Inventory_script
-res://Scenes/interactables
-res://Scripts
-res://resources/fonts/born2bsporty-fs
-res://Scenes/optionsmenu
-res://Scenes/mainmenu

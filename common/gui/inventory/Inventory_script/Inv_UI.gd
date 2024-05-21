@@ -2,7 +2,7 @@ extends Control
 
 class_name inv_ui
 
-@onready var inv: inv = load("res://common/gui/inventory/Inventory_script/PlayerInv.tres")
+@onready var inv: inv = load("res://common/gui/inventory/Inventory_script/player_inv.tres")
 @onready var slots: Array = $NinePatchRect/GridContainer.get_children()
 
 var is_open = false
@@ -19,7 +19,7 @@ func update_slots():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if Input.is_action_just_pressed("e"):
+	if Input.is_action_just_pressed("inv"):
 		if(is_open):
 			close()
 		else:

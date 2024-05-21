@@ -1,425 +1,422 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715879532
-CHANGELOG.md::TextFile::-1::1715775026::0::1::::<><>::
-default_bus_layout.tres::AudioBusLayout::1667366222910161965::1715775026::0::1::::<><>::
-icon.svg::CompressedTexture2D::4845468244009805016::1713888729::1713888766::1::::<><>::
-README.md::TextFile::-1::1715775026::0::1::::<><>::
-::res://assets/::1715878972
-::res://assets/audio/::1715878972
-::res://assets/audio/GameSFX/::1715878972
-::res://assets/audio/GameSFX/Alarms Blip Beeps/::1715878972
-Retro Alarm 02.wav::AudioStreamWAV::4829417283565408072::1715775026::1715878350::1::::<><>::
-Retro Alarm Long 02.wav::AudioStreamWAV::290212733731676187::1715775026::1715878351::1::::<><>::
-Retro Alarmed 06.wav::AudioStreamWAV::2473997549747692694::1715775026::1715878350::1::::<><>::
-Retro Alarmed 10.wav::AudioStreamWAV::1712071366341739758::1715775026::1715878350::1::::<><>::
-Retro Alarmed StereoUP 03.wav::AudioStreamWAV::130497050510458651::1715775026::1715878350::1::::<><>::
-Retro Beeep 06.wav::AudioStreamWAV::5889259019172790320::1715775026::1715878350::1::::<><>::
-Retro Beeep 20.wav::AudioStreamWAV::1343140471566936899::1715775026::1715878350::1::::<><>::
-Retro Blip 07.wav::AudioStreamWAV::5345389887587200387::1715775026::1715878350::1::::<><>::
-Retro Blip 15.wav::AudioStreamWAV::574064667903642424::1715775026::1715878350::1::::<><>::
-Retro Ring 01.wav::AudioStreamWAV::7061169002812815163::1715775026::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Ambience/::1715878972
-Retro Ambience 02.wav::AudioStreamWAV::8271347547509543777::1715775026::1715878351::1::::<><>::
-Retro Ambience 11.wav::AudioStreamWAV::5090270962762998134::1715775026::1715878351::1::::<><>::
-Retro Ambience Acute 01.wav::AudioStreamWAV::6999620171243277448::1715775026::1715878351::1::::<><>::
-Retro Ambience Short 09.wav::AudioStreamWAV::3713393386344149283::1715775026::1715878351::1::::<><>::
-Retro Ambience Stretch Large 01.wav::AudioStreamWAV::568070190854132576::1715775026::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Animal Insects/::1715878972
-Retro Birds 07.wav::AudioStreamWAV::7610626516722480894::1715775026::1715878350::1::::<><>::
-Retro Crow 01.wav::AudioStreamWAV::2130986840695786452::1715775026::1715878350::1::::<><>::
-Retro Fly 01.wav::AudioStreamWAV::8957599712304249333::1715775026::1715878350::1::::<><>::
-Retro Owl 01.wav::AudioStreamWAV::5182611669537437598::1715775026::1715878350::1::::<><>::
-Retro Wolf B 02.wav::AudioStreamWAV::903027229841285140::1715775026::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Ascending/::1715878972
-Retro Ascending Long 06.wav::AudioStreamWAV::3171691660884728092::1715775027::1715878350::1::::<><>::
-Retro Ascending Short 20.wav::AudioStreamWAV::3286177392677146934::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Blops/::1715878972
-Retro Blop 07.wav::AudioStreamWAV::3117242335249398422::1715775027::1715878350::1::::<><>::
-Retro Blop 18.wav::AudioStreamWAV::7399763195217313669::1715775027::1715878350::1::::<><>::
-Retro Blop 22.wav::AudioStreamWAV::1434109393340069051::1715775027::1715878350::1::::<><>::
-Retro Blop StereoUP 04.wav::AudioStreamWAV::3647661312447761826::1715775027::1715878350::1::::<><>::
-Retro Blop StereoUP 09.wav::AudioStreamWAV::2650890223955539417::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Bounce Jump/::1715878972
-Retro Jump 01.wav::AudioStreamWAV::8852732478926844015::1715775027::1715878350::1::::<><>::
-Retro Jump Classic 08.wav::AudioStreamWAV::1856290802737003552::1715775027::1715878350::1::::<><>::
-Retro Jump Simple A 01.wav::AudioStreamWAV::3224845549012323857::1715775027::1715878350::1::::<><>::
-Retro Jump Simple B 05.wav::AudioStreamWAV::5157355170140295628::1715775027::1715878350::1::::<><>::
-Retro Jump Simple C2 02.wav::AudioStreamWAV::8485173692974821433::1715775027::1715878350::1::::<><>::
-Retro Jump StereoUP Simple 01.wav::AudioStreamWAV::3706107810981090555::1715775027::1715878350::1::::<><>::
-Retro Jump StereoUP Simple 05.wav::AudioStreamWAV::6615678391470542179::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Charge/::1715878972
-Retro Charge 07.wav::AudioStreamWAV::6177884597369652078::1715775027::1715878350::1::::<><>::
-Retro Charge 13.wav::AudioStreamWAV::4586446744850717953::1715775027::1715878350::1::::<><>::
-Retro Charge Electric Off 07.wav::AudioStreamWAV::8604281924164210403::1715775027::1715878350::1::::<><>::
-Retro Charge Electric Off StereoUP 03.wav::AudioStreamWAV::258297835362808433::1715775027::1715878350::1::::<><>::
-Retro Charge Magic 11.wav::AudioStreamWAV::6839298829677079746::1715775027::1715878350::1::::<><>::
-Retro Charge Off 11.wav::AudioStreamWAV::2870647495576617205::1715775027::1715878350::1::::<><>::
-Retro Charge Off StereoUP 02.wav::AudioStreamWAV::5519588648021833653::1715775027::1715878350::1::::<><>::
-Retro Charge Off StereoUP 05.wav::AudioStreamWAV::4079217755548955794::1715775027::1715878350::1::::<><>::
-Retro Charge StereoUP 01.wav::AudioStreamWAV::2262214453687065761::1715775027::1715878350::1::::<><>::
-Retro Charge StereoUP 12.wav::AudioStreamWAV::3481202308290141549::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Cinematic/::1715878972
-Retro Cinematic Drums 01.wav::AudioStreamWAV::5355151224533898641::1715775027::1715878350::1::::<><>::
-Retro Cinematic Long 04.wav::AudioStreamWAV::2725124288331475526::1715775027::1715878350::1::::<><>::
-Retro Cinematic Long 05.wav::AudioStreamWAV::7844484996607908466::1715775027::1715878350::1::::<><>::
-Retro Cinematic Long 31.wav::AudioStreamWAV::3366490260560642140::1715775027::1715878350::1::::<><>::
-Retro Cinematic Short 02.wav::AudioStreamWAV::4168326427676497010::1715775027::1715878350::1::::<><>::
-Retro Cinematic Short 07.wav::AudioStreamWAV::4563783546344190068::1715775027::1715878350::1::::<><>::
-Retro Cinematic Wind 02.wav::AudioStreamWAV::210845372610794271::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Descending/::1715878972
-Retro Descending Long 04.wav::AudioStreamWAV::8895733957387204830::1715775027::1715878350::1::::<><>::
-Retro Descending Short 14.wav::AudioStreamWAV::8744502854174942846::1715775027::1715878350::1::::<><>::
-Retro Descending Short 20.wav::AudioStreamWAV::8852096632999267696::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Electric/::1715878972
-Retro Electric 02.wav::AudioStreamWAV::8235651094645556861::1715775027::1715878350::1::::<><>::
-Retro Electric 21.wav::AudioStreamWAV::5496124692590237177::1715775027::1715878350::1::::<><>::
-Retro Electric 32.wav::AudioStreamWAV::1518601791287971747::1715775027::1715878351::1::::<><>::
-Retro Electric LoFi 01.wav::AudioStreamWAV::5619425725065333489::1715775027::1715878351::1::::<><>::
-Retro Electric Long 09.wav::AudioStreamWAV::2304479526956479265::1715775027::1715878351::1::::<><>::
-Retro Electric Short 03.wav::AudioStreamWAV::3864717217411401721::1715775027::1715878351::1::::<><>::
-Retro Electric Short 17.wav::AudioStreamWAV::7261274229470548966::1715775027::1715878351::1::::<><>::
-Retro Electric Sparks 01.wav::AudioStreamWAV::1417308555626850472::1715775027::1715878351::1::::<><>::
-Retro Electric Sparks 22.wav::AudioStreamWAV::4425743242734740949::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Electronic Burst/::1715878972
-Retro Electronic Burst 05.wav::AudioStreamWAV::3031387299293323303::1715775027::1715878351::1::::<><>::
-Retro Electronic Burst StereoUP 04.wav::AudioStreamWAV::4123596576731542811::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Events/::1715878972
-Retro Event 19.wav::AudioStreamWAV::3210909177502756897::1715775027::1715878351::1::::<><>::
-Retro Event 49.wav::AudioStreamWAV::7768960633175138603::1715775027::1715878351::1::::<><>::
-Retro Event Acute 08.wav::AudioStreamWAV::5867524764186396729::1715775027::1715878351::1::::<><>::
-Retro Event Acute 11.wav::AudioStreamWAV::6761728401351852926::1715775027::1715878351::1::::<><>::
-Retro Event Complex 03.wav::AudioStreamWAV::989282239827298615::1715775027::1715878351::1::::<><>::
-Retro Event Echo 12.wav::AudioStreamWAV::1156367740100547410::1715775027::1715878351::1::::<><>::
-Retro Event StereoUP 02.wav::AudioStreamWAV::8929354745143095747::1715775027::1715878351::1::::<><>::
-Retro Event UI 01.wav::AudioStreamWAV::4996758171263208570::1715775027::1715878351::1::::<><>::
-Retro Event UI 13.wav::AudioStreamWAV::8604767266481037260::1715775027::1715878351::1::::<><>::
-Retro Event UI 15.wav::AudioStreamWAV::3515983400022599571::1715775027::1715878351::1::::<><>::
-Retro Event UI StereoUP 01.wav::AudioStreamWAV::2435653936292575213::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Events/Negative/::1715878972
-Retro Negative Long 01.wav::AudioStreamWAV::8883476747603263430::1715775027::1715878351::1::::<><>::
-Retro Negative Long 12.wav::AudioStreamWAV::2769124570603941996::1715775027::1715878351::1::::<><>::
-Retro Negative Short 07.wav::AudioStreamWAV::6142692547242006115::1715775027::1715878351::1::::<><>::
-Retro Negative Short 21.wav::AudioStreamWAV::8145683118804185458::1715775027::1715878351::1::::<><>::
-Retro Negative Short 23.wav::AudioStreamWAV::7155718204952021585::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Events/Wrong/::1715878972
-Retro Event Wrong Echo 03.wav::AudioStreamWAV::4750023269256403503::1715775027::1715878351::1::::<><>::
-Retro Event Wrong Simple 03.wav::AudioStreamWAV::6488846359082901249::1715775027::1715878351::1::::<><>::
-Retro Event Wrong Simple 07.wav::AudioStreamWAV::6156183431386712161::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Explosion/::1715878972
-Retro Explosion Long 02.wav::AudioStreamWAV::894052556043858072::1715775027::1715878351::1::::<><>::
-Retro Explosion Short 01.wav::AudioStreamWAV::3486763202157895339::1715775027::1715878350::1::::<><>::
-Retro Explosion Short 15.wav::AudioStreamWAV::2810076184604301227::1715775027::1715878350::1::::<><>::
-Retro Explosion Swoshes 04.wav::AudioStreamWAV::6484090991817304625::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/FootStep/::1715878972
-Retro FootStep 03.wav::AudioStreamWAV::8536378839312039978::1715775027::1715878350::1::::<><>::
-Retro FootStep Grass 01.wav::AudioStreamWAV::807800603285217963::1715775027::1715878350::1::::<><>::
-Retro FootStep Gravel 01.wav::AudioStreamWAV::2147715108935310370::1715775027::1715878351::1::::<><>::
-Retro FootStep Krushed Landing 01.wav::AudioStreamWAV::4791644945181742306::1715775027::1715878350::1::::<><>::
-Retro FootStep Metal 01.wav::AudioStreamWAV::6727337554703636797::1715775027::1715878351::1::::<><>::
-Retro FootStep Mud 01.wav::AudioStreamWAV::3157109373719910514::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/HiTech/::1715878972
-Retro HiTech 08.wav::AudioStreamWAV::7885281771625493492::1715775027::1715878351::1::::<><>::
-Retro HiTech 16.wav::AudioStreamWAV::2139230427364948419::1715775027::1715878351::1::::<><>::
-Retro HiTech Long 02.wav::AudioStreamWAV::3949683171656369202::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Impact/::1715878972
-Retro Impact 20.wav::AudioStreamWAV::8541606507224409603::1715775027::1715878351::1::::<><>::
-Retro Impact LoFi 09.wav::AudioStreamWAV::4851546948628488278::1715775027::1715878351::1::::<><>::
-Retro Impact Metal 05.wav::AudioStreamWAV::5426935647561810136::1715775027::1715878351::1::::<><>::
-Retro Impact Metal 36.wav::AudioStreamWAV::1142591989528298823::1715775027::1715878351::1::::<><>::
-Retro Impact Punch 07.wav::AudioStreamWAV::7065162458788098124::1715775027::1715878351::1::::<><>::
-Retro Impact Punch Hurt 01.wav::AudioStreamWAV::531936852004420497::1715775027::1715878351::1::::<><>::
-Retro Impact Water 03.wav::AudioStreamWAV::6417894966891289523::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Interferences/::1715878972
-Retro Interferences 02.wav::AudioStreamWAV::4489591309560220329::1715775027::1715878351::1::::<><>::
-Retro Interferences Long 08.wav::AudioStreamWAV::5887344882536156779::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Magic/::1715878972
-Retro Magic 06.wav::AudioStreamWAV::206447209723608258::1715775027::1715878351::1::::<><>::
-Retro Magic 11.wav::AudioStreamWAV::7967945931802963269::1715775027::1715878351::1::::<><>::
-Retro Magic 34.wav::AudioStreamWAV::6499900487172805278::1715775027::1715878351::1::::<><>::
-Retro Magic 54.wav::AudioStreamWAV::3144009098903524470::1715775027::1715878351::1::::<><>::
-Retro Magic Electric 03.wav::AudioStreamWAV::468003583874888559::1715775027::1715878351::1::::<><>::
-Retro Magic Protection 01.wav::AudioStreamWAV::4774348442339054479::1715775027::1715878351::1::::<><>::
-Retro Magic Protection 25.wav::AudioStreamWAV::1741292864913443141::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Music/::1715878972
-::res://assets/audio/GameSFX/Music/ChipWave/::1715878972
-Retro Music - ABMU - ChipWave 01.wav::AudioStreamWAV::4657689270310757521::1715775027::1715878351::1::::<><>::
-::res://assets/audio/GameSFX/Music/Events/::1715878972
-Retro Music - WolfSynth - Tempo Normal - 02.wav::AudioStreamWAV::1488243548452194951::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Music/Negative/::1715878972
-Retro Negative Melody 01 - aCustom1.wav::AudioStreamWAV::8066408537738572513::1715775027::1715878349::1::::<><>::
-Retro Negative Melody 02 - space voice pad.wav::AudioStreamWAV::2618260420561381087::1715775027::1715878349::1::::<><>::
-::res://assets/audio/GameSFX/Music/Nes Style/::1715878972
-Retro Music Loop - PV8 - NES Style 01.wav::AudioStreamWAV::1812299613906975231::1715775027::1715878349::1::::<><>::
-::res://assets/audio/GameSFX/Music/Success/::1715878972
-desktop.ini::TextFile::-1::1715775027::0::1::::<><>::
-Retro Success Melody 01 - sawtooth lead 1.wav::AudioStreamWAV::9089429572347228380::1715775027::1715878349::1::::<><>::
-Retro Success Melody 02 - choir soprano.wav::AudioStreamWAV::6406129286364873440::1715775027::1715878349::1::::<><>::
-Retro Success Melody 04 - electric piano 2.wav::AudioStreamWAV::9004080941357033009::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/PickUp/::1715878972
-Retro PickUp 10.wav::AudioStreamWAV::7080273862127844626::1715775027::1715878350::1::::<><>::
-Retro PickUp 18.wav::AudioStreamWAV::1141533367530142395::1715775027::1715878349::1::::<><>::
-Retro PickUp Coin 04.wav::AudioStreamWAV::3957290399060747118::1715775027::1715878350::1::::<><>::
-Retro PickUp Coin 07.wav::AudioStreamWAV::6470810199050056337::1715775027::1715878350::1::::<><>::
-Retro PickUp Coin StereoUP 04.wav::AudioStreamWAV::6220428015730176024::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/PowerUp/::1715878972
-Retro PowerUP 09.wav::AudioStreamWAV::7898139934124982679::1715775027::1715878350::1::::<><>::
-Retro PowerUP 23.wav::AudioStreamWAV::6991071976234034212::1715775027::1715878350::1::::<><>::
-Retro PowerUP StereoUP 05.wav::AudioStreamWAV::338208260458972290::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Roar/::1715878972
-Retro Roar 02.wav::AudioStreamWAV::5817940953428582115::1715775027::1715878350::1::::<><>::
-Retro Roar Krushed 01.wav::AudioStreamWAV::6003235654458674255::1715775027::1715878350::1::::<><>::
-Retro Roar LoFi 01.wav::AudioStreamWAV::7234159369856121372::1715775027::1715878350::1::::<><>::
-Retro Roar LoFi 08.wav::AudioStreamWAV::63998934477037132::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Swoosh/::1715878972
-Retro Swooosh 02.wav::AudioStreamWAV::71305580137252686::1715775027::1715878350::1::::<><>::
-Retro Swooosh 07.wav::AudioStreamWAV::9219398652165201256::1715775027::1715878350::1::::<><>::
-Retro Swooosh 16.wav::AudioStreamWAV::2783596769065364038::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Vehicles/::1715878972
-Retro Passing Airplane 01.wav::AudioStreamWAV::3974392762280496349::1715775027::1715878350::1::::<><>::
-Retro Vehicle Car 03.wav::AudioStreamWAV::1973778174709788264::1715775027::1715878350::1::::<><>::
-Retro Vehicle Motor 02.wav::AudioStreamWAV::5654750489674723005::1715775027::1715878350::1::::<><>::
-Retro Vehicle SciFi 01.wav::AudioStreamWAV::1665951492956686891::1715775027::1715878350::1::::<><>::
-Retro Vehicle Sirens 03.wav::AudioStreamWAV::1492535702974438583::1715775027::1715878350::1::::<><>::
-::res://assets/audio/GameSFX/Water/::1715878972
-Retro Descending Water 01.wav::AudioStreamWAV::1557900211204372421::1715775027::1715878349::1::::<><>::
-Retro Falling Water 07.wav::AudioStreamWAV::9118125128374729256::1715775027::1715878349::1::::<><>::
-Retro Water Drop 01.wav::AudioStreamWAV::1875448052274871183::1715775027::1715878349::1::::<><>::
-::res://assets/audio/GameSFX/Weapon/::1715878972
-Retro Gun Multishots 6 Delay9 03.wav::AudioStreamWAV::6392978421633710535::1715775027::1715878349::1::::<><>::
-Retro Gun SingleShot 04.wav::AudioStreamWAV::9001671745397854113::1715775027::1715878349::1::::<><>::
-Retro Weapon Gun LoFi 03.wav::AudioStreamWAV::4534530434470921617::1715775027::1715878349::1::::<><>::
-::res://assets/audio/GameSFX/Weapon/laser/::1715878972
-Retro Gun Laser SingleShot 01.wav::AudioStreamWAV::5144597804856210470::1715775027::1715878349::1::::<><>::
-Retro Weapon Laser 03.wav::AudioStreamWAV::4199362160144261146::1715775027::1715878349::1::::<><>::
-Retro Weapon Laser 25.wav::AudioStreamWAV::1581239833872797660::1715775027::1715878349::1::::<><>::
-Retro Weapon Laser 36.wav::AudioStreamWAV::8537227620113838454::1715775027::1715878349::1::::<><>::
-::res://assets/audio/GameSFX/Weapon/reload/::1715878972
-Retro Weapon Reload 03.wav::AudioStreamWAV::8636606171946902660::1715775027::1715878349::1::::<><>::
-Retro Weapon Reload Best A 03.wav::AudioStreamWAV::4846294695799435452::1715775027::1715878349::1::::<><>::
-Retro Weapon Reload Best Multi A 03.wav::AudioStreamWAV::8511077783724267274::1715775027::1715878349::1::::<><>::
-Retro Weapon Reload Plasma 06.wav::AudioStreamWAV::8968663203252682075::1715775027::1715878349::1::::<><>::
-::res://assets/audio/GameSFX/Weapon/various/::1715878972
-Retro Granade Launcher 03.wav::AudioStreamWAV::7908811218695894858::1715775027::1715878349::1::::<><>::
-Retro Missile Launcher 01.wav::AudioStreamWAV::1201692186990808802::1715775027::1715878349::1::::<><>::
-Retro Weapon Arrow 02.wav::AudioStreamWAV::1872627936148869154::1715775027::1715878349::1::::<><>::
-Retro Weapon Bomb 06.wav::AudioStreamWAV::6574583608041015323::1715775027::1715878349::1::::<><>::
-Retro Weapon Electric 05.wav::AudioStreamWAV::4230524659750733909::1715775027::1715878349::1::::<><>::
-Retro Weapon Electric 18.wav::AudioStreamWAV::3771471697137866675::1715775027::1715878349::1::::<><>::
-Retro Weapon Plasma Type B 03.wav::AudioStreamWAV::2616553640580552511::1715775027::1715878349::1::::<><>::
-::res://assets/audio/GameSFX/Weird/::1715878972
-Retro Weird 07.wav::AudioStreamWAV::6784984141914873766::1715775027::1715878349::1::::<><>::
-Retro Weird 15.wav::AudioStreamWAV::1572273602838744413::1715775027::1715878349::1::::<><>::
-Retro Weird Psych 18.wav::AudioStreamWAV::3231862876177264980::1715775027::1715878349::1::::<><>::
-Retro Weird Psych Long 11.wav::AudioStreamWAV::597926513040200018::1715775027::1715878349::1::::<><>::
-Retro Weird Psych Long 16.wav::AudioStreamWAV::2378394339685483657::1715775027::1715878349::1::::<><>::
-Retro Weird Saturated 05.wav::AudioStreamWAV::6330745259288999490::1715775027::1715878349::1::::<><>::
-::res://assets/audio/GameSFX/z_Various/::1715878972
-Retro Alien Transmission 02.wav::AudioStreamWAV::6894393871474296782::1715775027::1715878349::1::::<><>::
-Retro Computer 02.wav::AudioStreamWAV::8516424410853183646::1715775027::1715878350::1::::<><>::
-Retro Musicaly 03 nananana.wav::AudioStreamWAV::9038898744899409010::1715775027::1715878350::1::::<><>::
-Retro Ring 04.wav::AudioStreamWAV::5899903689246910480::1715775027::1715878350::1::::<><>::
-Retro Scream 01.wav::AudioStreamWAV::9208930753303505846::1715775027::1715878350::1::::<><>::
-Retro Turn Off 12.wav::AudioStreamWAV::7273644733442646032::1715775027::1715878350::1::::<><>::
-Retro Weird Psych 05.wav::AudioStreamWAV::6239684777108562952::1715775027::1715878350::1::::<><>::
-::res://assets/audio/Instruments/::1715878972
-Retro Instrument - choir bass - C00.wav::AudioStreamWAV::7852792975544622325::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C01.wav::AudioStreamWAV::8820006830636585735::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C02.wav::AudioStreamWAV::4870317535803122149::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C03.wav::AudioStreamWAV::3189755857976451706::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C04.wav::AudioStreamWAV::7373271342264392678::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C05.wav::AudioStreamWAV::7688878652141103874::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C06.wav::AudioStreamWAV::8202833412464718207::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C07.wav::AudioStreamWAV::8590985309549713153::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C08.wav::AudioStreamWAV::890866479763679723::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C09.wav::AudioStreamWAV::4243359718352033546::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C10.wav::AudioStreamWAV::4510276335717934093::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C11.wav::AudioStreamWAV::4614623985254446864::1715775027::1715878350::1::::<><>::
-Retro Instrument - choir bass - C12.wav::AudioStreamWAV::8617855587745276030::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C00.wav::AudioStreamWAV::4999312453112788559::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C01.wav::AudioStreamWAV::1104989716353895750::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C02.wav::AudioStreamWAV::2737390329588553350::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C03.wav::AudioStreamWAV::4352944610620175874::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C04.wav::AudioStreamWAV::1509385151888959739::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C05.wav::AudioStreamWAV::3646446590199706839::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C06.wav::AudioStreamWAV::8334398036790660857::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C07.wav::AudioStreamWAV::5916398107561348486::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C08.wav::AudioStreamWAV::6974878548722827767::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C09.wav::AudioStreamWAV::7088414382918630371::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C10.wav::AudioStreamWAV::3890642376068522233::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C11.wav::AudioStreamWAV::3689423292471384188::1715775027::1715878350::1::::<><>::
-Retro Instrument - crystal - C12.wav::AudioStreamWAV::4042249944615456129::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C01.wav::AudioStreamWAV::4713822811095382021::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C02.wav::AudioStreamWAV::6751582883891593165::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C03.wav::AudioStreamWAV::6562057298162350915::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C04.wav::AudioStreamWAV::5198845872795403357::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C05.wav::AudioStreamWAV::2946998047876679039::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C06.wav::AudioStreamWAV::4286150801232840410::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C07.wav::AudioStreamWAV::6915981282970385124::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C08.wav::AudioStreamWAV::4843807124904584187::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C09.wav::AudioStreamWAV::1679101101474910083::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C10.wav::AudioStreamWAV::8820917431729275351::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C11.wav::AudioStreamWAV::4781476006253825082::1715775027::1715878350::1::::<><>::
-Retro Instrument - drumset - C12.wav::AudioStreamWAV::2231251296751758147::1715775027::1715878350::1::::<><>::
-::res://assets/audio/music/::1715878972
-Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg::AudioStreamOggVorbis::1416692829125287882::1715775027::1715878349::1::::<><>::
-::res://assets/audio/sfx/::1715878972
-jump.wav::AudioStreamWAV::7098758526735309630::1715775027::1715878350::1::::<><>::
-speak.wav::AudioStreamWAV::3640726789297149214::1715775027::1715878350::1::::<><>::
-step.wav::AudioStreamWAV::6433928941824288536::1715775027::1715878350::1::::<><>::
-::res://assets/audio/Voices/::1715878972
-Deactivated.wav::AudioStreamWAV::2816355605419427319::1715775027::1715878350::1::::<><>::
-Game Over.wav::AudioStreamWAV::8215732541511038576::1715775027::1715878350::1::::<><>::
-Last Lap.wav::AudioStreamWAV::2959783281394095418::1715775027::1715878350::1::::<><>::
-Level Completed.wav::AudioStreamWAV::9166318297377671616::1715775027::1715878350::1::::<><>::
-Malfunction.wav::AudioStreamWAV::3072061638321593926::1715775027::1715878350::1::::<><>::
-Mission Completed.wav::AudioStreamWAV::2178691859405363716::1715775027::1715878350::1::::<><>::
-Nightmare Mode.wav::AudioStreamWAV::5044707292889568926::1715775027::1715878350::1::::<><>::
-Time Out.wav::AudioStreamWAV::5326664389028440098::1715775027::1715878350::1::::<><>::
-You Win.wav::AudioStreamWAV::6272844658346501626::1715775027::1715878350::1::::<><>::
-::res://assets/backgrounds/::1715878972
-::res://assets/backgrounds/Animated/::1715878972
-::res://assets/backgrounds/Animated/Conveyor Belt/::1715878972
-Left.png::CompressedTexture2D::7682464571010887801::1713888729::1715878553::1::::<><>::
-Middle.png::CompressedTexture2D::5782544568367566389::1713888729::1715878553::1::::<><>::
-Right.png::CompressedTexture2D::9212754110045176996::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Animated/Flag/::1715878972
-FlagBlack16x16.png::CompressedTexture2D::8594209118117188597::1713888729::1715878553::1::::<><>::
-FlagBlue16x16.png::CompressedTexture2D::7804480357873000257::1713888729::1715878553::1::::<><>::
-FlagBrown16x16.png::CompressedTexture2D::6112140531694647306::1713888729::1715878553::1::::<><>::
-FlagGray16x16.png::CompressedTexture2D::1696779908842581262::1713888729::1715878553::1::::<><>::
-FlagGreen16x16.png::CompressedTexture2D::4512083392889978749::1713888729::1715878553::1::::<><>::
-FlagRed16x16.png::CompressedTexture2D::2638675260082053423::1713888729::1715878553::1::::<><>::
-FlagWhite16x16.png::CompressedTexture2D::6415897608876899684::1713888729::1715878553::1::::<><>::
-FlagYellow16x16.png::CompressedTexture2D::7660149747993020986::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Animated/Flower/::1715878972
-SpriteSheet16x16.png::CompressedTexture2D::7025186387125287961::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Animated/MillPropeller/::1715878972
-MillPropeller_A_64x64.png::CompressedTexture2D::8356693081791615289::1713888729::1715878553::1::::<><>::
-MillPropeller_B_64x64.png::CompressedTexture2D::2646134137831139397::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Animated/Plant/::1715878972
-SpriteSheet16x16.png::CompressedTexture2D::1617244955159651111::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Animated/QuickSand/::1715878972
-QuickSand32x32.png::CompressedTexture2D::3299598107594828958::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Animated/Water Ripples/::1715878972
-SpriteSheet16x16.png::CompressedTexture2D::1819963284952573664::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Animated/Waterfall/::1715878972
-BottomSheet16x16.png::CompressedTexture2D::2944960233987489534::1713888729::1715878553::1::::<><>::
-MiddleSheet16x16.png::CompressedTexture2D::8388886985808382430::1713888729::1715878553::1::::<><>::
-TopSheet16x16.png::CompressedTexture2D::8347450968965064542::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Animated/WaterMill/::1715878972
-Watermill_A_34x36.png::CompressedTexture2D::1189455008896261649::1713888729::1715878553::1::::<><>::
-Watermill_B_34x36.png::CompressedTexture2D::5312802722964065162::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Tilesets/::1715878972
-Pipes.png::CompressedTexture2D::5225713855798277751::1713888729::1715878553::1::::<><>::
-TilesetDesert.png::CompressedTexture2D::4059138419021104878::1713888729::1715878553::1::::<><>::
-TilesetDungeon.png::CompressedTexture2D::1440313428273224241::1713888729::1715878553::1::::<><>::
-TilesetElement.png::CompressedTexture2D::8024865374274940254::1713888729::1715878553::1::::<><>::
-TilesetField.png::CompressedTexture2D::3497919675121056692::1713888729::1715878553::1::::<><>::
-TilesetFloor.png::CompressedTexture2D::2520501758494207938::1713888729::1715878553::1::::<><>::
-TilesetFloorB.png::CompressedTexture2D::5179145404067687752::1713888729::1715878553::1::::<><>::
-TilesetFloorDetail.png::CompressedTexture2D::5875693699042961826::1713888729::1715878553::1::::<><>::
-TilesetHole.png::CompressedTexture2D::8253584602392406516::1713888729::1715878553::1::::<><>::
-TilesetHouse.png::CompressedTexture2D::8339765235203564296::1713888729::1715878553::1::::<><>::
-TilesetLogic.png::CompressedTexture2D::8956238976117829802::1713888729::1715878553::1::::<><>::
-TilesetNature.png::CompressedTexture2D::5226268240664302356::1713888729::1715878553::1::::<><>::
-TilesetRelief.png::CompressedTexture2D::9197062750506252034::1713888729::1715878553::1::::<><>::
-TilesetReliefDetail.png::CompressedTexture2D::5949010989525936289::1713888729::1715878553::1::::<><>::
-TilesetVillageAbandoned.png::CompressedTexture2D::1910070730353547903::1713888729::1715878553::1::::<><>::
-TilesetWater.png::CompressedTexture2D::976246216337130779::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Tilesets/Interior/::1715878972
-Elements.png::CompressedTexture2D::8860173995256589493::1713888729::1715878553::1::::<><>::
-TilesetInterior.png::CompressedTexture2D::586901921930615950::1713888729::1715878553::1::::<><>::
-TilesetInteriorFloor.png::CompressedTexture2D::525966828336354419::1713888729::1715878553::1::::<><>::
-TilesetWallSimple.png::CompressedTexture2D::9128817586701318855::1713888729::1715878553::1::::<><>::
-::res://assets/backgrounds/Vehicles/::1715878972
-Boat.png::CompressedTexture2D::8864129015496223299::1713888729::1715878553::1::::<><>::
-Crane.png::CompressedTexture2D::9039106302461681283::1713888729::1715878553::1::::<><>::
-FishNet.png::CompressedTexture2D::774755537984617913::1713888729::1715878553::1::::<><>::
-FishNetFull.png::CompressedTexture2D::3444062318152689996::1713888729::1715878553::1::::<><>::
-Sail.png::CompressedTexture2D::6662707237744301160::1713888729::1715878553::1::::<><>::
-::res://assets/fonts/::1715878972
-::res://assets/fonts/born2bsporty-fs/::1715878972
-Born2bSportyFS.otf::FontFile::7352531668070233072::1715775027::1715878360::1::::<><>::
-::res://assets/shaders/::1715878972
-Outline.gdshader::Shader::-1::1715775027::0::1::::<><>::
-::res://assets/sprites/::1715878972
-IMG_0254.jpeg::CompressedTexture2D::965659419173189668::1715775027::1715878385::1::::<><>::
-Player.png::CompressedTexture2D::8712539339432882681::1715775027::1715878385::1::::<><>::
-Sniffles.png::CompressedTexture2D::7568659395033674663::1715775027::1715878385::1::::<><>::
-Talky.png::CompressedTexture2D::5133277608460841049::1715775027::1715878385::1::::<><>::
-Tutorianna.png::CompressedTexture2D::6734385725213779052::1715775027::1715878385::1::::<><>::
-::res://assets/sprites/Player/::1715878972
-SpriteSheet.png::CompressedTexture2D::9117525908609954032::1713888729::1715878540::1::::<><>::
-::res://assets/sprites/Player/Larry/::1715878972
-closeup_larry.png::CompressedTexture2D::2557990121318981151::1715776706::1715878540::1::::<><>::
-SpriteSheet-v1.png::CompressedTexture2D::5913866482438600034::1713888729::1715878540::1::::<><>::
-SpriteSheet-v2.png::CompressedTexture2D::3848655507166334709::1713888729::1715878540::1::::<><>::
-SpriteSheet-v3.png::CompressedTexture2D::7559472146402371166::1715775696::1715878540::1::::<><>::
-::res://assets/sprites/Player/Monk/::1715878972
-Faceset.png::CompressedTexture2D::1481625988039300479::1713888729::1715878540::1::::<><>::
-SpriteSheet.png::CompressedTexture2D::4016516635838779156::1713888729::1715878540::1::::<><>::
-::res://assets/sprites/Player/Monk/SeparateAnim/::1715878972
-Attack.png::CompressedTexture2D::4568192132341747697::1713888729::1715878540::1::::<><>::
-Dead.png::CompressedTexture2D::3083594729046944944::1713888729::1715878540::1::::<><>::
-Idle.png::CompressedTexture2D::8805485593614167387::1713888729::1715878540::1::::<><>::
-Item.png::CompressedTexture2D::387682048600270424::1713888729::1715878540::1::::<><>::
-Jump.png::CompressedTexture2D::8479103708124478195::1713888729::1715878540::1::::<><>::
-Special1.png::CompressedTexture2D::1463575587911151574::1713888729::1715878540::1::::<><>::
-Special2.png::CompressedTexture2D::3944077809942199202::1713888729::1715878540::1::::<><>::
-Walk.png::CompressedTexture2D::278098384660638005::1713888729::1715878540::1::::<><>::
-::res://assets/sprites/tilesets/::1715878972
-tilemap-backgrounds_packed.png::CompressedTexture2D::3677454649367621251::1715775027::1715878385::1::::<><>::
-tilemap_packed.png::CompressedTexture2D::4231553615455585264::1715775027::1715878385::1::::<><>::
-::res://common/::1715878972
-camera.gd::GDScript::-1::1715775026::0::1::::<>Camera2D<>::
-collision.gd::GDScript::-1::1715776160::0::1::::<>CollisionShape2D<>::
-playground.tscn::PackedScene::7502111394468818794::1715878917::0::1::::<><>::uid://dfx4nwqj4hqdq::::res://assets/sprites/Player/Larry/SpriteSheet-v3.png<>res://common/camera.gd<>uid://bp3ohxitvxcjs::::res://assets/backgrounds/Tilesets/TilesetField.png<>uid://bb57kb3xidhfe::::res://assets/backgrounds/Tilesets/TilesetFloor.png<>uid://dq23ykreu8hoi::::res://assets/backgrounds/Tilesets/TilesetHouse.png<>uid://dmlkmip6q8uok::::res://assets/backgrounds/Tilesets/TilesetElement.png<>uid://bxhvpbfefbjke::::res://assets/sprites/Player/Monk/SpriteSheet.png<>uid://cgpv4y0x6sh37::::res://assets/backgrounds/Tilesets/TilesetNature.png<>res://common/interactables/interactable_manager.gd
-::res://common/gui/::1715878972
-::res://common/gui/inventory/::1715878972
-::res://common/gui/inventory/Inventory_scene/::1715878972
-inv_background.png::CompressedTexture2D::3566787507869610082::1715776146::1715878442::1::::<><>::
-inv_slot.png::CompressedTexture2D::1187082699668727759::1715776146::1715878442::1::::<><>::
-inv_ui.tscn::PackedScene::135013510624394795::1715878778::0::1::::<><>::res://common/gui/inventory/Inventory_script/Inv_UI.gd<>uid://bq21p7ldiu86a::::res://common/gui/inventory/Inventory_scene/inv_background.png<>uid://duuer7nvs04b1::::res://common/gui/inventory/Inventory_scene/Inv_UI_Slot.tscn<>uid://bcpdyupidiwl8::::res://assets/sprites/Player/Larry/closeup_larry.png
-Inv_UI_Slot.tscn::PackedScene::8604601407197471608::1715878778::0::1::::<><>::res://common/gui/inventory/Inventory_script/Inv_UI_Slot.gd<>uid://q6bcw5ohmtwh::::res://common/gui/inventory/Inventory_scene/inv_slot.png
-UI_Sprites_1_0.png::CompressedTexture2D::2194015190771229480::1715776146::1715878442::1::::<><>::
-::res://common/gui/inventory/Inventory_scene/Items/::1715878972
-WaterPot.png::CompressedTexture2D::6725441785178925074::1715776146::1715878442::1::::<><>::
-::res://common/gui/inventory/Inventory_script/::1715878972
-Inventory.gd::GDScript::-1::1715877711::0::1::::inv<>Resource<>::
-Inventory_Item.gd::GDScript::-1::1715776122::0::1::::inv_item<>Resource<>::
-Inv_UI.gd::GDScript::-1::1715878706::0::1::::inv_ui<>Control<>::
-Inv_UI_Slot.gd::GDScript::-1::1715776122::0::1::::<>Panel<>::
-PlayerInv.tres::Resource/Resource::1284617631098441281::1715878503::0::1::::<><>::res://common/gui/inventory/Inventory_script/Inventory.gd
-::res://common/gui/inventory/Inventory_script/Items/::1715878492
-::res://common/gui/menus/::1715878972
-::res://common/gui/menus/mainmenu/::1715878972
-main_menu.gd::GDScript::-1::1715878815::0::1::::Main_menu<>Control<>::
-main_menu.tscn::PackedScene::8989218177411972151::1715878904::0::1::::<><>::res://common/gui/menus/mainmenu/main_menu.gd<>uid://n01jfumjc3au::::res://assets/sprites/IMG_0254.jpeg<>uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf<>uid://vj2ndoii7jbd::::res://common/gui/menus/optionsmenu/options_menu.tscn<>uid://ugiyu3yyj02i::::res://assets/audio/music/Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg
-::res://common/gui/menus/optionsmenu/::1715878972
-hotkey_rebind_button.gd::GDScript::-1::1715775026::0::1::::Hotkey_rebind_button<>Control<>::
-hotkey_rebind_button.tscn::PackedScene::6399587404070439344::1715878904::0::1::::<><>::res://common/gui/menus/optionsmenu/hotkey_rebind_button.gd<>uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf
-options_graphics_button.tscn::PackedScene::4085440919465811507::1715878904::0::1::::<><>::uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf
-options_menu.gd::GDScript::-1::1715775026::0::1::::Options_menu<>Control<>::
-options_menu.tscn::PackedScene::1494207869883430729::1715878904::0::1::::<><>::res://common/gui/menus/optionsmenu/options_menu.gd<>uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf<>uid://cphpngyugsac5::::res://common/gui/menus/optionsmenu/settings_tab_container.tscn
-resultion_window_button.gd::GDScript::-1::1715775026::0::1::::<>Control<>::
-resultion_window_button.tscn::PackedScene::7540125150328698293::1715878904::0::1::::<><>::uid://byhau6ab0sjvf::::res://common/gui/menus/optionsmenu/options_graphics_button.tscn<>res://common/gui/menus/optionsmenu/resultion_window_button.gd
-settings_tab_container.tscn::PackedScene::5841058989580207826::1715878856::0::1::::<><>::uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf<>uid://ca286jl7d0u6x::::res://common/gui/menus/optionsmenu/window_mode_button.tscn<>uid://cxgajfusg77ia::::res://common/gui/menus/optionsmenu/hotkey_rebind_button.tscn<>uid://dfoq03dku53xh::::res://common/gui/menus/optionsmenu/resultion_window_button.tscn
-window_mode_button.gd::GDScript::-1::1715775026::0::1::::<>Control<>::
-window_mode_button.tscn::PackedScene::4830639078280110397::1715878856::0::1::::<><>::uid://byhau6ab0sjvf::::res://common/gui/menus/optionsmenu/options_graphics_button.tscn<>res://common/gui/menus/optionsmenu/window_mode_button.gd
-::res://common/interactables/::1715878972
-base_interactable.gd::GDScript::-1::1715775544::0::1::::<>Node2D<>::
-interactable.tscn::PackedScene::8990467983131139326::1715878904::0::1::::<><>::res://common/interactables/base_interactable.gd<>uid://dmlkmip6q8uok::::res://assets/backgrounds/Tilesets/TilesetElement.png
-interactable_manager.gd::GDScript::-1::1715775544::0::1::::<>Node<>::
-interaction_area_chest.gd::GDScript::-1::1715775544::0::1::::<>Area2D<>::
-interaction_area_sign.gd::GDScript::-1::1715775544::0::1::::<>Area2D<>::
-rock.tscn::PackedScene::8006458243332045793::1715878904::0::1::::<><>::uid://d1dbxupg2mbg5::::res://common/interactables/interactable.tscn<>uid://cgpv4y0x6sh37::::res://assets/backgrounds/Tilesets/TilesetNature.png
-::res://common/player/::1715878972
-Player.gd::GDScript::-1::1715776153::0::1::::player<>CharacterBody2D<>::
-Player.tscn::PackedScene::7699807555316670801::1715878605::0::1::::<><>::res://common/player/Player.gd<>uid://bu3k1800cmv3j::::res://assets/sprites/Player/Larry/SpriteSheet-v2.png
-::res://level/::1715878972
-::res://level/level1/::1715878257
-::res://ressources/::1715878973
-::res://ressources/items/::1715878973
-Flask.tres::Resource/Resource::1155194016334078331::1715878503::0::1::::<><>::res://common/gui/inventory/Inventory_script/Inventory_Item.gd<>uid://c224bqn0wtjl7::::res://common/gui/inventory/Inventory_scene/Items/WaterPot.png
-::res://ressources/props/::1715878973
-Sign.tscn::PackedScene::3186589843227711829::1715878604::0::1::::<><>::uid://dmlkmip6q8uok::::res://assets/backgrounds/Tilesets/TilesetElement.png
+::res://::1716303821
+CHANGELOG.md::TextFile::-1::1716303815::0::1::::<><>::
+default_bus_layout.tres::AudioBusLayout::1667366222910161965::1716303816::0::1::::<><>::
+icon.svg::CompressedTexture2D::4845468244009805016::1716303529::1716303538::1::::<><>::
+README.md::TextFile::-1::1716303815::0::1::::<><>::
+::res://assets/::1716303816
+::res://assets/audio/::1716303816
+::res://assets/audio/GameSFX/::1716303816
+::res://assets/audio/GameSFX/Alarms Blip Beeps/::1716303815
+Retro Alarm 02.wav::AudioStreamWAV::4829417283565408072::1716303815::1716303815::1::::<><>::
+Retro Alarm Long 02.wav::AudioStreamWAV::290212733731676187::1716303815::1716303815::1::::<><>::
+Retro Alarmed 06.wav::AudioStreamWAV::2473997549747692694::1716303815::1716303815::1::::<><>::
+Retro Alarmed 10.wav::AudioStreamWAV::1712071366341739758::1716303815::1716303815::1::::<><>::
+Retro Alarmed StereoUP 03.wav::AudioStreamWAV::130497050510458651::1716303815::1716303815::1::::<><>::
+Retro Beeep 06.wav::AudioStreamWAV::5889259019172790320::1716303815::1716303815::1::::<><>::
+Retro Beeep 20.wav::AudioStreamWAV::1343140471566936899::1716303815::1716303815::1::::<><>::
+Retro Blip 07.wav::AudioStreamWAV::5345389887587200387::1716303815::1716303815::1::::<><>::
+Retro Blip 15.wav::AudioStreamWAV::574064667903642424::1716303815::1716303815::1::::<><>::
+Retro Ring 01.wav::AudioStreamWAV::7061169002812815163::1716303815::1716303815::1::::<><>::
+::res://assets/audio/GameSFX/Ambience/::1716303815
+Retro Ambience 02.wav::AudioStreamWAV::8271347547509543777::1716303815::1716303815::1::::<><>::
+Retro Ambience 11.wav::AudioStreamWAV::5090270962762998134::1716303815::1716303815::1::::<><>::
+Retro Ambience Acute 01.wav::AudioStreamWAV::6999620171243277448::1716303815::1716303815::1::::<><>::
+Retro Ambience Short 09.wav::AudioStreamWAV::3713393386344149283::1716303815::1716303815::1::::<><>::
+Retro Ambience Stretch Large 01.wav::AudioStreamWAV::568070190854132576::1716303815::1716303815::1::::<><>::
+::res://assets/audio/GameSFX/Animal Insects/::1716303815
+Retro Birds 07.wav::AudioStreamWAV::7610626516722480894::1716303815::1716303815::1::::<><>::
+Retro Crow 01.wav::AudioStreamWAV::2130986840695786452::1716303815::1716303815::1::::<><>::
+Retro Fly 01.wav::AudioStreamWAV::8957599712304249333::1716303815::1716303815::1::::<><>::
+Retro Owl 01.wav::AudioStreamWAV::5182611669537437598::1716303815::1716303815::1::::<><>::
+Retro Wolf B 02.wav::AudioStreamWAV::903027229841285140::1716303815::1716303815::1::::<><>::
+::res://assets/audio/GameSFX/Ascending/::1716303816
+Retro Ascending Long 06.wav::AudioStreamWAV::3171691660884728092::1716303815::1716303815::1::::<><>::
+Retro Ascending Short 20.wav::AudioStreamWAV::3286177392677146934::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Blops/::1716303816
+Retro Blop 07.wav::AudioStreamWAV::3117242335249398422::1716303816::1716303816::1::::<><>::
+Retro Blop 18.wav::AudioStreamWAV::7399763195217313669::1716303816::1716303816::1::::<><>::
+Retro Blop 22.wav::AudioStreamWAV::1434109393340069051::1716303816::1716303816::1::::<><>::
+Retro Blop StereoUP 04.wav::AudioStreamWAV::3647661312447761826::1716303816::1716303816::1::::<><>::
+Retro Blop StereoUP 09.wav::AudioStreamWAV::2650890223955539417::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Bounce Jump/::1716303816
+Retro Jump 01.wav::AudioStreamWAV::8852732478926844015::1716303816::1716303816::1::::<><>::
+Retro Jump Classic 08.wav::AudioStreamWAV::1856290802737003552::1716303816::1716303816::1::::<><>::
+Retro Jump Simple A 01.wav::AudioStreamWAV::3224845549012323857::1716303816::1716303816::1::::<><>::
+Retro Jump Simple B 05.wav::AudioStreamWAV::5157355170140295628::1716303816::1716303816::1::::<><>::
+Retro Jump Simple C2 02.wav::AudioStreamWAV::8485173692974821433::1716303816::1716303816::1::::<><>::
+Retro Jump StereoUP Simple 01.wav::AudioStreamWAV::3706107810981090555::1716303816::1716303816::1::::<><>::
+Retro Jump StereoUP Simple 05.wav::AudioStreamWAV::6615678391470542179::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Charge/::1716303816
+Retro Charge 07.wav::AudioStreamWAV::6177884597369652078::1716303816::1716303816::1::::<><>::
+Retro Charge 13.wav::AudioStreamWAV::4586446744850717953::1716303816::1716303816::1::::<><>::
+Retro Charge Electric Off 07.wav::AudioStreamWAV::8604281924164210403::1716303816::1716303816::1::::<><>::
+Retro Charge Electric Off StereoUP 03.wav::AudioStreamWAV::258297835362808433::1716303816::1716303816::1::::<><>::
+Retro Charge Magic 11.wav::AudioStreamWAV::6839298829677079746::1716303816::1716303816::1::::<><>::
+Retro Charge Off 11.wav::AudioStreamWAV::2870647495576617205::1716303816::1716303816::1::::<><>::
+Retro Charge Off StereoUP 02.wav::AudioStreamWAV::5519588648021833653::1716303816::1716303816::1::::<><>::
+Retro Charge Off StereoUP 05.wav::AudioStreamWAV::4079217755548955794::1716303816::1716303816::1::::<><>::
+Retro Charge StereoUP 01.wav::AudioStreamWAV::2262214453687065761::1716303816::1716303816::1::::<><>::
+Retro Charge StereoUP 12.wav::AudioStreamWAV::3481202308290141549::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Cinematic/::1716303816
+Retro Cinematic Drums 01.wav::AudioStreamWAV::5355151224533898641::1716303816::1716303816::1::::<><>::
+Retro Cinematic Long 04.wav::AudioStreamWAV::2725124288331475526::1716303816::1716303816::1::::<><>::
+Retro Cinematic Long 05.wav::AudioStreamWAV::7844484996607908466::1716303816::1716303816::1::::<><>::
+Retro Cinematic Long 31.wav::AudioStreamWAV::3366490260560642140::1716303816::1716303816::1::::<><>::
+Retro Cinematic Short 02.wav::AudioStreamWAV::4168326427676497010::1716303816::1716303816::1::::<><>::
+Retro Cinematic Short 07.wav::AudioStreamWAV::4563783546344190068::1716303816::1716303816::1::::<><>::
+Retro Cinematic Wind 02.wav::AudioStreamWAV::210845372610794271::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Descending/::1716303816
+Retro Descending Long 04.wav::AudioStreamWAV::8895733957387204830::1716303816::1716303816::1::::<><>::
+Retro Descending Short 14.wav::AudioStreamWAV::8744502854174942846::1716303816::1716303816::1::::<><>::
+Retro Descending Short 20.wav::AudioStreamWAV::8852096632999267696::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Electric/::1716303816
+Retro Electric 02.wav::AudioStreamWAV::8235651094645556861::1716303816::1716303816::1::::<><>::
+Retro Electric 21.wav::AudioStreamWAV::5496124692590237177::1716303816::1716303816::1::::<><>::
+Retro Electric 32.wav::AudioStreamWAV::1518601791287971747::1716303816::1716303816::1::::<><>::
+Retro Electric LoFi 01.wav::AudioStreamWAV::5619425725065333489::1716303816::1716303816::1::::<><>::
+Retro Electric Long 09.wav::AudioStreamWAV::2304479526956479265::1716303816::1716303816::1::::<><>::
+Retro Electric Short 03.wav::AudioStreamWAV::3864717217411401721::1716303816::1716303816::1::::<><>::
+Retro Electric Short 17.wav::AudioStreamWAV::7261274229470548966::1716303816::1716303816::1::::<><>::
+Retro Electric Sparks 01.wav::AudioStreamWAV::1417308555626850472::1716303816::1716303816::1::::<><>::
+Retro Electric Sparks 22.wav::AudioStreamWAV::4425743242734740949::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Electronic Burst/::1716303816
+Retro Electronic Burst 05.wav::AudioStreamWAV::3031387299293323303::1716303816::1716303816::1::::<><>::
+Retro Electronic Burst StereoUP 04.wav::AudioStreamWAV::4123596576731542811::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Events/::1716303816
+Retro Event 19.wav::AudioStreamWAV::3210909177502756897::1716303816::1716303816::1::::<><>::
+Retro Event 49.wav::AudioStreamWAV::7768960633175138603::1716303816::1716303816::1::::<><>::
+Retro Event Acute 08.wav::AudioStreamWAV::5867524764186396729::1716303816::1716303816::1::::<><>::
+Retro Event Acute 11.wav::AudioStreamWAV::6761728401351852926::1716303816::1716303816::1::::<><>::
+Retro Event Complex 03.wav::AudioStreamWAV::989282239827298615::1716303816::1716303816::1::::<><>::
+Retro Event Echo 12.wav::AudioStreamWAV::1156367740100547410::1716303816::1716303816::1::::<><>::
+Retro Event StereoUP 02.wav::AudioStreamWAV::8929354745143095747::1716303816::1716303816::1::::<><>::
+Retro Event UI 01.wav::AudioStreamWAV::4996758171263208570::1716303816::1716303816::1::::<><>::
+Retro Event UI 13.wav::AudioStreamWAV::8604767266481037260::1716303816::1716303816::1::::<><>::
+Retro Event UI 15.wav::AudioStreamWAV::3515983400022599571::1716303816::1716303816::1::::<><>::
+Retro Event UI StereoUP 01.wav::AudioStreamWAV::2435653936292575213::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Events/Negative/::1716303816
+Retro Negative Long 01.wav::AudioStreamWAV::8883476747603263430::1716303816::1716303816::1::::<><>::
+Retro Negative Long 12.wav::AudioStreamWAV::2769124570603941996::1716303816::1716303816::1::::<><>::
+Retro Negative Short 07.wav::AudioStreamWAV::6142692547242006115::1716303816::1716303816::1::::<><>::
+Retro Negative Short 21.wav::AudioStreamWAV::8145683118804185458::1716303816::1716303816::1::::<><>::
+Retro Negative Short 23.wav::AudioStreamWAV::7155718204952021585::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Events/Wrong/::1716303816
+Retro Event Wrong Echo 03.wav::AudioStreamWAV::4750023269256403503::1716303816::1716303816::1::::<><>::
+Retro Event Wrong Simple 03.wav::AudioStreamWAV::6488846359082901249::1716303816::1716303816::1::::<><>::
+Retro Event Wrong Simple 07.wav::AudioStreamWAV::6156183431386712161::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Explosion/::1716303816
+Retro Explosion Long 02.wav::AudioStreamWAV::894052556043858072::1716303816::1716303816::1::::<><>::
+Retro Explosion Short 01.wav::AudioStreamWAV::3486763202157895339::1716303816::1716303816::1::::<><>::
+Retro Explosion Short 15.wav::AudioStreamWAV::2810076184604301227::1716303816::1716303816::1::::<><>::
+Retro Explosion Swoshes 04.wav::AudioStreamWAV::6484090991817304625::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/FootStep/::1716303816
+Retro FootStep 03.wav::AudioStreamWAV::8536378839312039978::1716303816::1716303816::1::::<><>::
+Retro FootStep Grass 01.wav::AudioStreamWAV::807800603285217963::1716303816::1716303816::1::::<><>::
+Retro FootStep Gravel 01.wav::AudioStreamWAV::2147715108935310370::1716303816::1716303816::1::::<><>::
+Retro FootStep Krushed Landing 01.wav::AudioStreamWAV::4791644945181742306::1716303816::1716303816::1::::<><>::
+Retro FootStep Metal 01.wav::AudioStreamWAV::6727337554703636797::1716303816::1716303816::1::::<><>::
+Retro FootStep Mud 01.wav::AudioStreamWAV::3157109373719910514::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/HiTech/::1716303816
+Retro HiTech 08.wav::AudioStreamWAV::7885281771625493492::1716303816::1716303816::1::::<><>::
+Retro HiTech 16.wav::AudioStreamWAV::2139230427364948419::1716303816::1716303816::1::::<><>::
+Retro HiTech Long 02.wav::AudioStreamWAV::3949683171656369202::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Impact/::1716303816
+Retro Impact 20.wav::AudioStreamWAV::8541606507224409603::1716303816::1716303816::1::::<><>::
+Retro Impact LoFi 09.wav::AudioStreamWAV::4851546948628488278::1716303816::1716303816::1::::<><>::
+Retro Impact Metal 05.wav::AudioStreamWAV::5426935647561810136::1716303816::1716303816::1::::<><>::
+Retro Impact Metal 36.wav::AudioStreamWAV::1142591989528298823::1716303816::1716303816::1::::<><>::
+Retro Impact Punch 07.wav::AudioStreamWAV::7065162458788098124::1716303816::1716303816::1::::<><>::
+Retro Impact Punch Hurt 01.wav::AudioStreamWAV::531936852004420497::1716303816::1716303816::1::::<><>::
+Retro Impact Water 03.wav::AudioStreamWAV::6417894966891289523::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Interferences/::1716303816
+Retro Interferences 02.wav::AudioStreamWAV::4489591309560220329::1716303816::1716303816::1::::<><>::
+Retro Interferences Long 08.wav::AudioStreamWAV::5887344882536156779::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Magic/::1716303816
+Retro Magic 06.wav::AudioStreamWAV::206447209723608258::1716303816::1716303816::1::::<><>::
+Retro Magic 11.wav::AudioStreamWAV::7967945931802963269::1716303816::1716303816::1::::<><>::
+Retro Magic 34.wav::AudioStreamWAV::6499900487172805278::1716303816::1716303816::1::::<><>::
+Retro Magic 54.wav::AudioStreamWAV::3144009098903524470::1716303816::1716303816::1::::<><>::
+Retro Magic Electric 03.wav::AudioStreamWAV::468003583874888559::1716303816::1716303816::1::::<><>::
+Retro Magic Protection 01.wav::AudioStreamWAV::4774348442339054479::1716303816::1716303816::1::::<><>::
+Retro Magic Protection 25.wav::AudioStreamWAV::1741292864913443141::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Music/::1716303816
+::res://assets/audio/GameSFX/Music/ChipWave/::1716303816
+Retro Music - ABMU - ChipWave 01.wav::AudioStreamWAV::4657689270310757521::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Music/Events/::1716303816
+Retro Music - WolfSynth - Tempo Normal - 02.wav::AudioStreamWAV::1488243548452194951::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Music/Negative/::1716303816
+Retro Negative Melody 01 - aCustom1.wav::AudioStreamWAV::8066408537738572513::1716303816::1716303816::1::::<><>::
+Retro Negative Melody 02 - space voice pad.wav::AudioStreamWAV::2618260420561381087::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Music/Nes Style/::1716303816
+Retro Music Loop - PV8 - NES Style 01.wav::AudioStreamWAV::1812299613906975231::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Music/Success/::1716303816
+desktop.ini::TextFile::-1::1716303816::0::1::::<><>::
+Retro Success Melody 01 - sawtooth lead 1.wav::AudioStreamWAV::9089429572347228380::1716303816::1716303816::1::::<><>::
+Retro Success Melody 02 - choir soprano.wav::AudioStreamWAV::6406129286364873440::1716303816::1716303816::1::::<><>::
+Retro Success Melody 04 - electric piano 2.wav::AudioStreamWAV::9004080941357033009::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/PickUp/::1716303816
+Retro PickUp 10.wav::AudioStreamWAV::7080273862127844626::1716303816::1716303816::1::::<><>::
+Retro PickUp 18.wav::AudioStreamWAV::1141533367530142395::1716303816::1716303816::1::::<><>::
+Retro PickUp Coin 04.wav::AudioStreamWAV::3957290399060747118::1716303816::1716303816::1::::<><>::
+Retro PickUp Coin 07.wav::AudioStreamWAV::6470810199050056337::1716303816::1716303816::1::::<><>::
+Retro PickUp Coin StereoUP 04.wav::AudioStreamWAV::6220428015730176024::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/PowerUp/::1716303816
+Retro PowerUP 09.wav::AudioStreamWAV::7898139934124982679::1716303816::1716303816::1::::<><>::
+Retro PowerUP 23.wav::AudioStreamWAV::6991071976234034212::1716303816::1716303816::1::::<><>::
+Retro PowerUP StereoUP 05.wav::AudioStreamWAV::338208260458972290::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Roar/::1716303816
+Retro Roar 02.wav::AudioStreamWAV::5817940953428582115::1716303816::1716303816::1::::<><>::
+Retro Roar Krushed 01.wav::AudioStreamWAV::6003235654458674255::1716303816::1716303816::1::::<><>::
+Retro Roar LoFi 01.wav::AudioStreamWAV::7234159369856121372::1716303816::1716303816::1::::<><>::
+Retro Roar LoFi 08.wav::AudioStreamWAV::63998934477037132::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Swoosh/::1716303816
+Retro Swooosh 02.wav::AudioStreamWAV::71305580137252686::1716303816::1716303816::1::::<><>::
+Retro Swooosh 07.wav::AudioStreamWAV::9219398652165201256::1716303816::1716303816::1::::<><>::
+Retro Swooosh 16.wav::AudioStreamWAV::2783596769065364038::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Vehicles/::1716303816
+Retro Passing Airplane 01.wav::AudioStreamWAV::3974392762280496349::1716303816::1716303816::1::::<><>::
+Retro Vehicle Car 03.wav::AudioStreamWAV::1973778174709788264::1716303816::1716303816::1::::<><>::
+Retro Vehicle Motor 02.wav::AudioStreamWAV::5654750489674723005::1716303816::1716303816::1::::<><>::
+Retro Vehicle SciFi 01.wav::AudioStreamWAV::1665951492956686891::1716303816::1716303816::1::::<><>::
+Retro Vehicle Sirens 03.wav::AudioStreamWAV::1492535702974438583::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Water/::1716303816
+Retro Descending Water 01.wav::AudioStreamWAV::1557900211204372421::1716303816::1716303816::1::::<><>::
+Retro Falling Water 07.wav::AudioStreamWAV::9118125128374729256::1716303816::1716303816::1::::<><>::
+Retro Water Drop 01.wav::AudioStreamWAV::1875448052274871183::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Weapon/::1716303816
+Retro Gun Multishots 6 Delay9 03.wav::AudioStreamWAV::6392978421633710535::1716303816::1716303816::1::::<><>::
+Retro Gun SingleShot 04.wav::AudioStreamWAV::9001671745397854113::1716303816::1716303816::1::::<><>::
+Retro Weapon Gun LoFi 03.wav::AudioStreamWAV::4534530434470921617::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Weapon/laser/::1716303816
+Retro Gun Laser SingleShot 01.wav::AudioStreamWAV::5144597804856210470::1716303816::1716303816::1::::<><>::
+Retro Weapon Laser 03.wav::AudioStreamWAV::4199362160144261146::1716303816::1716303816::1::::<><>::
+Retro Weapon Laser 25.wav::AudioStreamWAV::1581239833872797660::1716303816::1716303816::1::::<><>::
+Retro Weapon Laser 36.wav::AudioStreamWAV::8537227620113838454::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Weapon/reload/::1716303816
+Retro Weapon Reload 03.wav::AudioStreamWAV::8636606171946902660::1716303816::1716303816::1::::<><>::
+Retro Weapon Reload Best A 03.wav::AudioStreamWAV::4846294695799435452::1716303816::1716303816::1::::<><>::
+Retro Weapon Reload Best Multi A 03.wav::AudioStreamWAV::8511077783724267274::1716303816::1716303816::1::::<><>::
+Retro Weapon Reload Plasma 06.wav::AudioStreamWAV::8968663203252682075::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Weapon/various/::1716303816
+Retro Granade Launcher 03.wav::AudioStreamWAV::7908811218695894858::1716303816::1716303816::1::::<><>::
+Retro Missile Launcher 01.wav::AudioStreamWAV::1201692186990808802::1716303816::1716303816::1::::<><>::
+Retro Weapon Arrow 02.wav::AudioStreamWAV::1872627936148869154::1716303816::1716303816::1::::<><>::
+Retro Weapon Bomb 06.wav::AudioStreamWAV::6574583608041015323::1716303816::1716303816::1::::<><>::
+Retro Weapon Electric 05.wav::AudioStreamWAV::4230524659750733909::1716303816::1716303816::1::::<><>::
+Retro Weapon Electric 18.wav::AudioStreamWAV::3771471697137866675::1716303816::1716303816::1::::<><>::
+Retro Weapon Plasma Type B 03.wav::AudioStreamWAV::2616553640580552511::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/Weird/::1716303816
+Retro Weird 07.wav::AudioStreamWAV::6784984141914873766::1716303816::1716303816::1::::<><>::
+Retro Weird 15.wav::AudioStreamWAV::1572273602838744413::1716303816::1716303816::1::::<><>::
+Retro Weird Psych 18.wav::AudioStreamWAV::3231862876177264980::1716303816::1716303816::1::::<><>::
+Retro Weird Psych Long 11.wav::AudioStreamWAV::597926513040200018::1716303816::1716303816::1::::<><>::
+Retro Weird Psych Long 16.wav::AudioStreamWAV::2378394339685483657::1716303816::1716303816::1::::<><>::
+Retro Weird Saturated 05.wav::AudioStreamWAV::6330745259288999490::1716303816::1716303816::1::::<><>::
+::res://assets/audio/GameSFX/z_Various/::1716303816
+Retro Alien Transmission 02.wav::AudioStreamWAV::6894393871474296782::1716303816::1716303816::1::::<><>::
+Retro Computer 02.wav::AudioStreamWAV::8516424410853183646::1716303816::1716303816::1::::<><>::
+Retro Musicaly 03 nananana.wav::AudioStreamWAV::9038898744899409010::1716303816::1716303816::1::::<><>::
+Retro Ring 04.wav::AudioStreamWAV::5899903689246910480::1716303816::1716303816::1::::<><>::
+Retro Scream 01.wav::AudioStreamWAV::9208930753303505846::1716303816::1716303816::1::::<><>::
+Retro Turn Off 12.wav::AudioStreamWAV::7273644733442646032::1716303816::1716303816::1::::<><>::
+Retro Weird Psych 05.wav::AudioStreamWAV::6239684777108562952::1716303816::1716303816::1::::<><>::
+::res://assets/audio/Instruments/::1716303816
+Retro Instrument - choir bass - C00.wav::AudioStreamWAV::7852792975544622325::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C01.wav::AudioStreamWAV::8820006830636585735::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C02.wav::AudioStreamWAV::4870317535803122149::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C03.wav::AudioStreamWAV::3189755857976451706::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C04.wav::AudioStreamWAV::7373271342264392678::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C05.wav::AudioStreamWAV::7688878652141103874::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C06.wav::AudioStreamWAV::8202833412464718207::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C07.wav::AudioStreamWAV::8590985309549713153::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C08.wav::AudioStreamWAV::890866479763679723::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C09.wav::AudioStreamWAV::4243359718352033546::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C10.wav::AudioStreamWAV::4510276335717934093::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C11.wav::AudioStreamWAV::4614623985254446864::1716303816::1716303816::1::::<><>::
+Retro Instrument - choir bass - C12.wav::AudioStreamWAV::8617855587745276030::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C00.wav::AudioStreamWAV::4999312453112788559::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C01.wav::AudioStreamWAV::1104989716353895750::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C02.wav::AudioStreamWAV::2737390329588553350::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C03.wav::AudioStreamWAV::4352944610620175874::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C04.wav::AudioStreamWAV::1509385151888959739::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C05.wav::AudioStreamWAV::3646446590199706839::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C06.wav::AudioStreamWAV::8334398036790660857::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C07.wav::AudioStreamWAV::5916398107561348486::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C08.wav::AudioStreamWAV::6974878548722827767::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C09.wav::AudioStreamWAV::7088414382918630371::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C10.wav::AudioStreamWAV::3890642376068522233::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C11.wav::AudioStreamWAV::3689423292471384188::1716303816::1716303816::1::::<><>::
+Retro Instrument - crystal - C12.wav::AudioStreamWAV::4042249944615456129::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C01.wav::AudioStreamWAV::4713822811095382021::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C02.wav::AudioStreamWAV::6751582883891593165::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C03.wav::AudioStreamWAV::6562057298162350915::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C04.wav::AudioStreamWAV::5198845872795403357::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C05.wav::AudioStreamWAV::2946998047876679039::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C06.wav::AudioStreamWAV::4286150801232840410::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C07.wav::AudioStreamWAV::6915981282970385124::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C08.wav::AudioStreamWAV::4843807124904584187::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C09.wav::AudioStreamWAV::1679101101474910083::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C10.wav::AudioStreamWAV::8820917431729275351::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C11.wav::AudioStreamWAV::4781476006253825082::1716303816::1716303816::1::::<><>::
+Retro Instrument - drumset - C12.wav::AudioStreamWAV::2231251296751758147::1716303816::1716303816::1::::<><>::
+::res://assets/audio/music/::1716303816
+Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg::AudioStreamOggVorbis::1416692829125287882::1716303816::1716303816::1::::<><>::
+::res://assets/audio/sfx/::1716303816
+jump.wav::AudioStreamWAV::7098758526735309630::1716303816::1716303816::1::::<><>::
+speak.wav::AudioStreamWAV::3640726789297149214::1716303816::1716303816::1::::<><>::
+step.wav::AudioStreamWAV::6433928941824288536::1716303816::1716303816::1::::<><>::
+::res://assets/audio/Voices/::1716303816
+Deactivated.wav::AudioStreamWAV::2816355605419427319::1716303816::1716303816::1::::<><>::
+Game Over.wav::AudioStreamWAV::8215732541511038576::1716303816::1716303816::1::::<><>::
+Last Lap.wav::AudioStreamWAV::2959783281394095418::1716303816::1716303816::1::::<><>::
+Level Completed.wav::AudioStreamWAV::9166318297377671616::1716303816::1716303816::1::::<><>::
+Malfunction.wav::AudioStreamWAV::3072061638321593926::1716303816::1716303816::1::::<><>::
+Mission Completed.wav::AudioStreamWAV::2178691859405363716::1716303816::1716303816::1::::<><>::
+Nightmare Mode.wav::AudioStreamWAV::5044707292889568926::1716303816::1716303816::1::::<><>::
+Time Out.wav::AudioStreamWAV::5326664389028440098::1716303816::1716303816::1::::<><>::
+You Win.wav::AudioStreamWAV::6272844658346501626::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/::1716303816
+::res://assets/backgrounds/Animated/::1716303816
+::res://assets/backgrounds/Animated/Conveyor Belt/::1716303816
+Left.png::CompressedTexture2D::7682464571010887801::1716303816::1716303816::1::::<><>::
+Middle.png::CompressedTexture2D::5782544568367566389::1716303816::1716303816::1::::<><>::
+Right.png::CompressedTexture2D::9212754110045176996::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Animated/Flag/::1716303816
+FlagBlack16x16.png::CompressedTexture2D::8594209118117188597::1716303816::1716303816::1::::<><>::
+FlagBlue16x16.png::CompressedTexture2D::7804480357873000257::1716303816::1716303816::1::::<><>::
+FlagBrown16x16.png::CompressedTexture2D::6112140531694647306::1716303816::1716303816::1::::<><>::
+FlagGray16x16.png::CompressedTexture2D::1696779908842581262::1716303816::1716303816::1::::<><>::
+FlagGreen16x16.png::CompressedTexture2D::4512083392889978749::1716303816::1716303816::1::::<><>::
+FlagRed16x16.png::CompressedTexture2D::2638675260082053423::1716303816::1716303816::1::::<><>::
+FlagWhite16x16.png::CompressedTexture2D::6415897608876899684::1716303816::1716303816::1::::<><>::
+FlagYellow16x16.png::CompressedTexture2D::7660149747993020986::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Animated/Flower/::1716303816
+SpriteSheet16x16.png::CompressedTexture2D::7025186387125287961::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Animated/MillPropeller/::1716303816
+MillPropeller_A_64x64.png::CompressedTexture2D::8356693081791615289::1716303816::1716303816::1::::<><>::
+MillPropeller_B_64x64.png::CompressedTexture2D::2646134137831139397::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Animated/Plant/::1716303816
+SpriteSheet16x16.png::CompressedTexture2D::1617244955159651111::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Animated/QuickSand/::1716303816
+QuickSand32x32.png::CompressedTexture2D::3299598107594828958::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Animated/Water Ripples/::1716303816
+SpriteSheet16x16.png::CompressedTexture2D::1819963284952573664::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Animated/Waterfall/::1716303816
+BottomSheet16x16.png::CompressedTexture2D::2944960233987489534::1716303816::1716303816::1::::<><>::
+MiddleSheet16x16.png::CompressedTexture2D::8388886985808382430::1716303816::1716303816::1::::<><>::
+TopSheet16x16.png::CompressedTexture2D::8347450968965064542::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Animated/WaterMill/::1716303816
+Watermill_A_34x36.png::CompressedTexture2D::1189455008896261649::1716303816::1716303816::1::::<><>::
+Watermill_B_34x36.png::CompressedTexture2D::5312802722964065162::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Tilesets/::1716303816
+Pipes.png::CompressedTexture2D::5225713855798277751::1716303816::1716303816::1::::<><>::
+TilesetDesert.png::CompressedTexture2D::4059138419021104878::1716303816::1716303816::1::::<><>::
+TilesetDungeon.png::CompressedTexture2D::1440313428273224241::1716303816::1716303816::1::::<><>::
+TilesetElement.png::CompressedTexture2D::8024865374274940254::1716303816::1716303816::1::::<><>::
+TilesetField.png::CompressedTexture2D::3497919675121056692::1716303816::1716303816::1::::<><>::
+TilesetFloor.png::CompressedTexture2D::2520501758494207938::1716303816::1716303816::1::::<><>::
+TilesetFloorB.png::CompressedTexture2D::5179145404067687752::1716303816::1716303816::1::::<><>::
+TilesetFloorDetail.png::CompressedTexture2D::5875693699042961826::1716303816::1716303816::1::::<><>::
+TilesetHole.png::CompressedTexture2D::8253584602392406516::1716303816::1716303816::1::::<><>::
+TilesetHouse.png::CompressedTexture2D::8339765235203564296::1716303816::1716303816::1::::<><>::
+TilesetLogic.png::CompressedTexture2D::8956238976117829802::1716303816::1716303816::1::::<><>::
+TilesetNature.png::CompressedTexture2D::5226268240664302356::1716303816::1716303816::1::::<><>::
+TilesetRelief.png::CompressedTexture2D::9197062750506252034::1716303816::1716303816::1::::<><>::
+TilesetReliefDetail.png::CompressedTexture2D::5949010989525936289::1716303816::1716303816::1::::<><>::
+TilesetVillageAbandoned.png::CompressedTexture2D::1910070730353547903::1716303816::1716303816::1::::<><>::
+TilesetWater.png::CompressedTexture2D::976246216337130779::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Tilesets/Interior/::1716303816
+Elements.png::CompressedTexture2D::8860173995256589493::1716303816::1716303816::1::::<><>::
+TilesetInterior.png::CompressedTexture2D::586901921930615950::1716303816::1716303816::1::::<><>::
+TilesetInteriorFloor.png::CompressedTexture2D::525966828336354419::1716303816::1716303816::1::::<><>::
+TilesetWallSimple.png::CompressedTexture2D::9128817586701318855::1716303816::1716303816::1::::<><>::
+::res://assets/backgrounds/Vehicles/::1716303816
+Boat.png::CompressedTexture2D::8864129015496223299::1716303816::1716303816::1::::<><>::
+Crane.png::CompressedTexture2D::9039106302461681283::1716303816::1716303816::1::::<><>::
+FishNet.png::CompressedTexture2D::774755537984617913::1716303816::1716303816::1::::<><>::
+FishNetFull.png::CompressedTexture2D::3444062318152689996::1716303816::1716303816::1::::<><>::
+Sail.png::CompressedTexture2D::6662707237744301160::1716303816::1716303816::1::::<><>::
+::res://assets/fonts/::1716303816
+::res://assets/fonts/born2bsporty-fs/::1716303816
+Born2bSportyFS.otf::FontFile::7352531668070233072::1716303816::1716303816::1::::<><>::
+::res://assets/shaders/::1716303816
+Outline.gdshader::Shader::-1::1716303816::0::1::::<><>::
+::res://assets/sprites/::1716303816
+IMG_0254.jpeg::CompressedTexture2D::965659419173189668::1716303816::1716303816::1::::<><>::
+Player.png::CompressedTexture2D::8712539339432882681::1716303816::1716303816::1::::<><>::
+Sniffles.png::CompressedTexture2D::7568659395033674663::1716303816::1716303816::1::::<><>::
+Talky.png::CompressedTexture2D::5133277608460841049::1716303816::1716303816::1::::<><>::
+Tutorianna.png::CompressedTexture2D::6734385725213779052::1716303816::1716303816::1::::<><>::
+::res://assets/sprites/Player/::1716303816
+SpriteSheet.png::CompressedTexture2D::9117525908609954032::1716303816::1716303816::1::::<><>::
+::res://assets/sprites/Player/Larry/::1716303816
+closeup_larry.png::CompressedTexture2D::2557990121318981151::1716303816::1716303816::1::::<><>::
+SpriteSheet-v1.png::CompressedTexture2D::5913866482438600034::1716303816::1716303816::1::::<><>::
+SpriteSheet-v2.png::CompressedTexture2D::3848655507166334709::1716303816::1716303816::1::::<><>::
+SpriteSheet-v3.png::CompressedTexture2D::7559472146402371166::1716303816::1716303816::1::::<><>::
+::res://assets/sprites/Player/Monk/::1716303816
+Faceset.png::CompressedTexture2D::1481625988039300479::1716303816::1716303816::1::::<><>::
+SpriteSheet.png::CompressedTexture2D::4016516635838779156::1716303816::1716303816::1::::<><>::
+::res://assets/sprites/Player/Monk/SeparateAnim/::1716303816
+Attack.png::CompressedTexture2D::4568192132341747697::1716303816::1716303816::1::::<><>::
+Dead.png::CompressedTexture2D::3083594729046944944::1716303816::1716303816::1::::<><>::
+Idle.png::CompressedTexture2D::8805485593614167387::1716303816::1716303816::1::::<><>::
+Item.png::CompressedTexture2D::387682048600270424::1716303816::1716303816::1::::<><>::
+Jump.png::CompressedTexture2D::8479103708124478195::1716303816::1716303816::1::::<><>::
+Special1.png::CompressedTexture2D::1463575587911151574::1716303816::1716303816::1::::<><>::
+Special2.png::CompressedTexture2D::3944077809942199202::1716303816::1716303816::1::::<><>::
+Walk.png::CompressedTexture2D::278098384660638005::1716303816::1716303816::1::::<><>::
+::res://assets/sprites/tilesets/::1716303816
+tilemap-backgrounds_packed.png::CompressedTexture2D::3677454649367621251::1716303816::1716303816::1::::<><>::
+tilemap_packed.png::CompressedTexture2D::4231553615455585264::1716303816::1716303816::1::::<><>::
+::res://common/::1716303816
+camera.gd::GDScript::-1::1716303816::0::1::::<>Camera2D<>::
+collision.gd::GDScript::-1::1716303816::0::1::::<>CollisionShape2D<>::
+playground.tscn::PackedScene::7502111394468818794::1716303816::0::1::::<><>::uid://dfx4nwqj4hqdq::::res://assets/sprites/Player/Larry/SpriteSheet-v3.png<>res://common/camera.gd<>uid://bp3ohxitvxcjs::::res://assets/backgrounds/Tilesets/TilesetField.png<>uid://bb57kb3xidhfe::::res://assets/backgrounds/Tilesets/TilesetFloor.png<>uid://dq23ykreu8hoi::::res://assets/backgrounds/Tilesets/TilesetHouse.png<>uid://dmlkmip6q8uok::::res://assets/backgrounds/Tilesets/TilesetElement.png<>uid://bxhvpbfefbjke::::res://assets/sprites/Player/Monk/SpriteSheet.png<>uid://cgpv4y0x6sh37::::res://assets/backgrounds/Tilesets/TilesetNature.png<>res://common/interactables/interactable_manager.gd
+::res://common/gui/::1716303816
+::res://common/gui/inventory/::1716303816
+::res://common/gui/inventory/Inventory_scene/::1716303816
+inv_background.png::CompressedTexture2D::3566787507869610082::1716303816::1716303816::1::::<><>::
+inv_slot.png::CompressedTexture2D::1187082699668727759::1716303816::1716303816::1::::<><>::
+inv_ui.tscn::PackedScene::135013510624394795::1716303816::0::1::::<><>::res://common/gui/inventory/Inventory_script/Inv_UI.gd<>uid://bq21p7ldiu86a::::res://common/gui/inventory/Inventory_scene/inv_background.png<>uid://duuer7nvs04b1::::res://common/gui/inventory/Inventory_scene/Inv_UI_Slot.tscn<>uid://bcpdyupidiwl8::::res://assets/sprites/Player/Larry/closeup_larry.png
+Inv_UI_Slot.tscn::PackedScene::8604601407197471608::1716303816::0::1::::<><>::res://common/gui/inventory/Inventory_script/Inv_UI_Slot.gd<>uid://q6bcw5ohmtwh::::res://common/gui/inventory/Inventory_scene/inv_slot.png
+UI_Sprites_1_0.png::CompressedTexture2D::2194015190771229480::1716303816::1716303816::1::::<><>::
+::res://common/gui/inventory/Inventory_scene/Items/::1716303816
+WaterPot.png::CompressedTexture2D::6725441785178925074::1716303816::1716303816::1::::<><>::
+::res://common/gui/inventory/Inventory_script/::1716303816
+Inventory.gd::GDScript::-1::1716303816::0::1::::inv<>Resource<>::
+Inventory_Item.gd::GDScript::-1::1716303816::0::1::::inv_item<>Resource<>::
+Inv_UI.gd::GDScript::-1::1716303816::0::1::::inv_ui<>Control<>::
+Inv_UI_Slot.gd::GDScript::-1::1716303816::0::1::::<>Panel<>::
+PlayerInv.tres::Resource/inv::1284617631098441281::1716303816::0::1::::<><>::res://common/gui/inventory/Inventory_script/Inventory.gd
+::res://common/gui/menus/::1716303816
+::res://common/gui/menus/mainmenu/::1716303816
+main_menu.gd::GDScript::-1::1716303816::0::1::::Main_menu<>Control<>::
+main_menu.tscn::PackedScene::8989218177411972151::1716303816::0::1::::<><>::res://common/gui/menus/mainmenu/main_menu.gd<>uid://n01jfumjc3au::::res://assets/sprites/IMG_0254.jpeg<>uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf<>uid://vj2ndoii7jbd::::res://common/gui/menus/optionsmenu/options_menu.tscn<>uid://ugiyu3yyj02i::::res://assets/audio/music/Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg
+::res://common/gui/menus/optionsmenu/::1716303816
+hotkey_rebind_button.gd::GDScript::-1::1716303816::0::1::::Hotkey_rebind_button<>Control<>::
+hotkey_rebind_button.tscn::PackedScene::6399587404070439344::1716303816::0::1::::<><>::res://common/gui/menus/optionsmenu/hotkey_rebind_button.gd<>uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf
+options_graphics_button.tscn::PackedScene::4085440919465811507::1716303816::0::1::::<><>::uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf
+options_menu.gd::GDScript::-1::1716303816::0::1::::Options_menu<>Control<>::
+options_menu.tscn::PackedScene::1494207869883430729::1716303816::0::1::::<><>::res://common/gui/menus/optionsmenu/options_menu.gd<>uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf<>uid://cphpngyugsac5::::res://common/gui/menus/optionsmenu/settings_tab_container.tscn
+resultion_window_button.gd::GDScript::-1::1716303816::0::1::::<>Control<>::
+resultion_window_button.tscn::PackedScene::7540125150328698293::1716303816::0::1::::<><>::uid://byhau6ab0sjvf::::res://common/gui/menus/optionsmenu/options_graphics_button.tscn<>res://common/gui/menus/optionsmenu/resultion_window_button.gd
+settings_tab_container.tscn::PackedScene::5841058989580207826::1716303816::0::1::::<><>::uid://dc0vefpbebp5q::::res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf<>uid://ca286jl7d0u6x::::res://common/gui/menus/optionsmenu/window_mode_button.tscn<>uid://cxgajfusg77ia::::res://common/gui/menus/optionsmenu/hotkey_rebind_button.tscn<>uid://dfoq03dku53xh::::res://common/gui/menus/optionsmenu/resultion_window_button.tscn
+window_mode_button.gd::GDScript::-1::1716303816::0::1::::<>Control<>::
+window_mode_button.tscn::PackedScene::4830639078280110397::1716303816::0::1::::<><>::uid://byhau6ab0sjvf::::res://common/gui/menus/optionsmenu/options_graphics_button.tscn<>res://common/gui/menus/optionsmenu/window_mode_button.gd
+::res://common/interactables/::1716303816
+base_interactable.gd::GDScript::-1::1716303816::0::1::::<>Node2D<>::
+interactable.tscn::PackedScene::8990467983131139326::1716303816::0::1::::<><>::res://common/interactables/base_interactable.gd<>uid://dmlkmip6q8uok::::res://assets/backgrounds/Tilesets/TilesetElement.png
+interactable_manager.gd::GDScript::-1::1716303816::0::1::::<>Node<>::
+interaction_area_chest.gd::GDScript::-1::1716303816::0::1::::<>Area2D<>::
+interaction_area_sign.gd::GDScript::-1::1716303816::0::1::::<>Area2D<>::
+rock.tscn::PackedScene::8006458243332045793::1716303816::0::1::::<><>::uid://d1dbxupg2mbg5::::res://common/interactables/interactable.tscn<>uid://cgpv4y0x6sh37::::res://assets/backgrounds/Tilesets/TilesetNature.png
+::res://common/player/::1716303816
+Player.gd::GDScript::-1::1716303816::0::1::::player<>CharacterBody2D<>::
+Player.tscn::PackedScene::7699807555316670801::1716303816::0::1::::<><>::res://common/player/Player.gd<>uid://bu3k1800cmv3j::::res://assets/sprites/Player/Larry/SpriteSheet-v2.png
+::res://ressources/::1716303816
+::res://ressources/items/::1716303816
+Flask.tres::Resource/InvItem::1155194016334078331::1716303816::0::1::::<><>::res://common/gui/inventory/Inventory_script/Inventory_Item.gd<>uid://c224bqn0wtjl7::::res://common/gui/inventory/Inventory_scene/Items/WaterPot.png
+::res://ressources/props/::1716303816
+Sign.tscn::PackedScene::3186589843227711829::1716303816::0::1::::<><>::uid://dmlkmip6q8uok::::res://assets/backgrounds/Tilesets/TilesetElement.png

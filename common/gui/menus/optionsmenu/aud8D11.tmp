@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://b08i6vndh3nmc"]
+
+[ext_resource type="FontFile" uid="uid://dc0vefpbebp5q" path="res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf" id="1_62djv"]
+[ext_resource type="Script" path="res://common/gui/menus/optionsmenu/audio_slider_settings.gd" id="1_gc7qd"]
+
+[node name="AudioSliderSettings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gc7qd")
+busName = "Master"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/separation = 42
+
+[node name="AudioNameLbl" type="Label" parent="HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_62djv")
+theme_override_font_sizes/font_size = 32
+text = "Master Volume"
+
+[node name="VSeparator" type="VSeparator" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="HSlider" type="HSlider" parent="HBoxContainer"]
+custom_minimum_size = Vector2(200, 42)
+layout_mode = 2
+max_value = 1.0
+step = 0.001
+
+[node name="VSeparator2" type="VSeparator" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="AudioNumLbl" type="Label" parent="HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_62djv")
+theme_override_font_sizes/font_size = 32
+text = "99.2
+"

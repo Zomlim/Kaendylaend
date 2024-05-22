@@ -6,5 +6,6 @@ res://common/gui/menus/optionsmenu/options_menu.tscn
 res://common/gui/menus/optionsmenu/resultion_window_button.tscn
 res://common/interactables/interactable.tscn
 res://common/interactables/rock.tscn
-res://common/gui/inventory/Inventory_script/Inventory_Item.gd
-res://common/gui/inventory/Inventory_script/Inv_UI.gd
+res://common/gui/menus/optionsmenu/settings_tab_container.tscn
+res://common/gui/menus/optionsmenu/audio_slider_settings.tscn
+res://common/gui/menus/optionsmenu/audio_slider_settings.gd

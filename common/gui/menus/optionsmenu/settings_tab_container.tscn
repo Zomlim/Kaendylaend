@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://cphpngyugsac5"]
+[gd_scene load_steps=8 format=3 uid="uid://cphpngyugsac5"]
 
 [ext_resource type="FontFile" uid="uid://dc0vefpbebp5q" path="res://assets/fonts/born2bsporty-fs/Born2bSportyFS.otf" id="1_w7ygs"]
+[ext_resource type="PackedScene" uid="uid://b08i6vndh3nmc" path="res://common/gui/menus/optionsmenu/audio_slider_settings.tscn" id="2_f2j3k"]
 [ext_resource type="PackedScene" uid="uid://ca286jl7d0u6x" path="res://common/gui/menus/optionsmenu/window_mode_button.tscn" id="2_s674n"]
 [ext_resource type="PackedScene" uid="uid://cxgajfusg77ia" path="res://common/gui/menus/optionsmenu/hotkey_rebind_button.tscn" id="2_wqh1s"]
 [ext_resource type="PackedScene" uid="uid://dfoq03dku53xh" path="res://common/gui/menus/optionsmenu/resultion_window_button.tscn" id="3_pipc4"]
@@ -31,8 +32,10 @@ offset_bottom = -100.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
+current_tab = 3
 
 [node name="Sound" type="TabBar" parent="TabContainer"]
+visible = false
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_w7ygs")
 
@@ -48,34 +51,30 @@ theme_override_constants/margin_top = 24
 theme_override_constants/margin_right = 24
 theme_override_constants/margin_bottom = 24
 
-[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Sound/MarginContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="TabContainer/Sound/MarginContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Sound/MarginContainer/ScrollContainer"]
 layout_mode = 2
 theme_override_constants/separation = 36
 alignment = 1
 
-[node name="Label" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer"]
+[node name="AudioSliderSettings" parent="TabContainer/Sound/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_f2j3k")]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_w7ygs")
-theme_override_font_sizes/font_size = 32
-text = "Master Volume"
 
-[node name="Label2" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="TabContainer/Sound/MarginContainer/ScrollContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_w7ygs")
-theme_override_font_sizes/font_size = 32
-text = "Music Volume"
 
-[node name="Label3" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer"]
+[node name="AudioSliderSettings2" parent="TabContainer/Sound/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_f2j3k")]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_w7ygs")
-theme_override_font_sizes/font_size = 32
-text = "Sfx Volume"
+busName = "Music"
 
-[node name="Label5" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer"]
+[node name="HSeparator2" type="HSeparator" parent="TabContainer/Sound/MarginContainer/ScrollContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_w7ygs")
-theme_override_font_sizes/font_size = 32
-text = "Sound On / Off"
+
+[node name="AudioSliderSettings3" parent="TabContainer/Sound/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_f2j3k")]
+layout_mode = 2
+busName = "Sfx"
 
 [node name="Graphics" type="TabBar" parent="TabContainer"]
 visible = false
@@ -193,7 +192,6 @@ theme_override_constants/separation = 24
 theme_override_styles/separator = SubResource("StyleBoxEmpty_c8ek0")
 
 [node name="Accessibility" type="TabBar" parent="TabContainer"]
-visible = false
 layout_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="TabContainer/Accessibility"]

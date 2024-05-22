@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://de5cxcpqslx35"]
+[gd_scene load_steps=34 format=3 uid="uid://de5cxcpqslx35"]
 
 [ext_resource type="Resource" uid="uid://dxnrfwsu5d1fc" path="res://common/gui/inventory/Inventory_script/player_inv.tres" id="1_hmphb"]
 [ext_resource type="Texture2D" uid="uid://dfx4nwqj4hqdq" path="res://assets/sprites/Player/Larry/SpriteSheet-v3.png" id="1_yghe7"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://cgpv4y0x6sh37" path="res://assets/backgrounds/Tilesets/TilesetNature.png" id="8_5cj67"]
 [ext_resource type="Script" path="res://common/interactables/interactable_manager.gd" id="9_e8i61"]
 [ext_resource type="PackedScene" uid="uid://b6nwgvoqeig6" path="res://common/gui/inventory/Inventory_scene/inv_ui.tscn" id="10_kiu0s"]
+[ext_resource type="AudioStream" uid="uid://ugiyu3yyj02i" path="res://assets/audio/music/Juhani Junkala [Chiptune Adventures] 1. Stage 1.ogg" id="12_07b5x"]
 
 [sub_resource type="GDScript" id="GDScript_k2cwu"]
 script/source = "extends CharacterBody2D
@@ -6181,3 +6182,9 @@ offset_left = -1.0
 offset_top = -1.0
 offset_right = 1149.0
 offset_bottom = 646.0
+
+[node name="Music_stream_player" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_07b5x")
+volume_db = -15.928
+autoplay = true
+bus = &"Music"
